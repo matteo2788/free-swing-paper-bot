@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "free-swing-alert-bot"
+version = "0.1.0"
+description = "Free paper-trading swing scanner with Discord alerts"
+requires-python = ">=3.11"
+dependencies = [
+  "yfinance==1.5.1",
+  "pandas>=2.2,<3",
+  "numpy>=2.0,<3",
+  "requests>=2.32,<3",
+  "PyYAML>=6.0,<7",
+  "pandas-market-calendars>=5.0,<6",
+  "lxml>=5.0,<7",
+  "html5lib>=1.1,<2",
+]
+
+[project.scripts]
+swing-bot = "swing_bot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

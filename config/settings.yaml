@@ -1,0 +1,86 @@
+system:
+  timezone: America/New_York
+  market_calendar: NYSE
+  trigger_interval: 15m
+  data_period_intraday: 60d
+  data_period_daily: 1y
+  scan_only_closed_candles: true
+  request_batch_size: 60
+  request_pause_seconds: 1.0
+
+universe:
+  source: sp500
+  include_etfs:
+    - SPY
+    - QQQ
+    - IWM
+    - DIA
+    - XLK
+    - XLF
+    - XLE
+    - XLV
+    - XLI
+    - XLY
+    - XLP
+    - XLU
+    - XLRE
+    - XLB
+    - XLC
+  fallback_csv: config/universe_fallback.csv
+
+context:
+  min_price: 5.0
+  min_avg_volume_20d: 1000000
+  min_avg_dollar_volume_20d: 25000000
+  min_daily_adx: 20.0
+  min_atr_percent: 1.2
+  max_atr_percent: 8.0
+  relative_strength_lookback_days: 10
+  daily_ema_fast: 20
+  daily_ema_slow: 50
+  four_hour_ema_fast: 20
+  four_hour_ema_slow: 50
+
+scoring:
+  b_setup_threshold: 60
+  a_setup_threshold: 80
+  breakout_lookback_bars: 20
+  overhead_lookback_bars: 80
+  rvol_lookback_bars: 20
+  rsi_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  atr_period: 14
+
+paper_trading:
+  enabled: true
+  minimum_trade_score: 80
+  starting_account_value: 10000.0
+  risk_per_trade_percent: 1.0
+  max_position_notional_percent: 20.0
+  max_open_positions: 5
+  entry_buffer_percent: 0.15
+  pending_expiry_trading_days: 2
+  time_stop_trading_days: 5
+  target_1_r: 1.0
+  target_2_r: 2.0
+  target_1_exit_fraction: 0.50
+  target_2_exit_fraction: 0.25
+  runner_exit_fraction: 0.25
+  runner_ema_period_1h: 20
+  minimum_stop_percent: 0.35
+  maximum_stop_percent: 4.0
+
+alerts:
+  username: Free Swing Paper Bot
+  send_b_setups: true
+  send_a_setups: true
+  send_daily_open_position_summary: true
+  mention_everyone: false
+
+storage:
+  runtime_state: state/runtime.json
+  trades_csv: data/trades.csv
+  events_jsonl: data/events.jsonl
+  commit_marker: state/commit_required
