@@ -1,0 +1,100 @@
+name: Free Swing Paper Bot
+
+on:
+  schedule:
+    # Wide UTC window covers both EST and EDT. The Python market calendar decides
+    # whether the NYSE is actually open, closed, on holiday, or in the after-close window.
+    - cron: "*/15 13-22 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: What should the bot do?
+        required: true
+        default: auto
+        type: choice
+        options:
+          - auto
+          - scan
+          - refresh
+          - test-discord
+          - status
+
+permissions:
+  contents: write
+
+concurrency:
+  group: free-swing-paper-bot
+  cancel-in-progress: false
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      PYTHONUNBUFFERED: "1"
+      MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'auto' }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Restore newest bot runtime
+        id: restore-runtime
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            state/runtime.json
+            data/trades.csv
+            data/events.jsonl
+          key: bot-runtime-${{ github.run_id }}
+          restore-keys: |
+            bot-runtime-
+
+      - name: Install bot
+        run: pip install -e . pytest
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Run bot
+        run: python -m swing_bot.cli "$MODE"
+
+      - name: Commit important state and trade events
+        if: always()
+        shell: bash
+        run: |
+          if [ ! -f state/commit_required ]; then
+            echo "No alert, fill, target, stop, summary, or daily refresh needs a repository commit."
+            exit 0
+          fi
+
+          rm -f state/commit_required
+          git config user.name "free-swing-paper-bot"
+          git config user.email "free-swing-paper-bot@users.noreply.github.com"
+          git add state/runtime.json data/trades.csv data/events.jsonl
+
+          if git diff --cached --quiet; then
+            echo "Marker existed, but tracked runtime files did not change."
+            exit 0
+          fi
+
+          git commit -m "chore: save paper bot state [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Save newest bot runtime
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            state/runtime.json
+            data/trades.csv
+            data/events.jsonl
+          key: bot-runtime-${{ github.run_id }}
