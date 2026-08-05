@@ -1,1 +1,2 @@
 {"payload": {"configured": true}, "timestamp": "2026-08-05T19:54:12+00:00", "type": "discord_test_sent"}
+{"payload": {"date": "2026-08-05", "eligible": 100, "evaluated": 518}, "timestamp": "2026-08-05T20:02:08+00:00", "type": "daily_pool_refreshed"}
