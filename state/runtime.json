@@ -2102,89 +2102,62 @@
     }
   },
   "last_daily_refresh": "2026-08-05",
-  "last_scan_bar": "2026-08-07T11:45:00-04:00",
+  "last_scan_bar": "2026-08-07T12:45:00-04:00",
   "last_summary_date": "2026-08-05",
-  "pending": {},
+  "pending": {
+    "HPQ-20260807-1245-a2de07": {
+      "entry_high": 29.6394,
+      "entry_low": 29.595,
+      "last_processed_bar": "2026-08-07T12:45:00-04:00",
+      "score": 85,
+      "signal_time": "2026-08-07T12:45:00-04:00",
+      "stop": 29.3914,
+      "ticker": "HPQ",
+      "tier": "A",
+      "tp1": 29.7986,
+      "tp2": 30.0022,
+      "trade_id": "HPQ-20260807-1245-a2de07"
+    }
+  },
   "positions": {},
   "scores": {
     "ABT": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 4,
+        "momentum": 8,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 18
       },
-      "score": 4,
+      "score": 26,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "ACN": {
       "factors": {
-        "clean_structure": 5,
-        "momentum": 14,
+        "clean_structure": 20,
+        "momentum": 16,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 18
       },
-      "score": 19,
+      "score": 54,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "ADBE": {
       "factors": {
         "clean_structure": 20,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 34,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "ADP": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 4,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 4,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "AJG": {
-      "score": 0,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "ALL": {
-      "factors": {
-        "clean_structure": 15,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 20,
-        "vwap": 6
-      },
-      "score": 47,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "ALLE": {
-      "factors": {
-        "clean_structure": 0,
         "momentum": 8,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 8,
+      "score": 28,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
-    "AMCR": {
+    "ADP": {
       "factors": {
         "clean_structure": 0,
         "momentum": 10,
@@ -2194,9 +2167,62 @@
       },
       "score": 10,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "AJG": {
+      "score": 0,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "ALL": {
+      "factors": {
+        "clean_structure": 10,
+        "momentum": 10,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 18
+      },
+      "score": 38,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "ALLE": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 8,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 6
+      },
+      "score": 14,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "AMCR": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 20,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 20
+      },
+      "score": 40,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "AMGN": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 20,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 18
+      },
+      "score": 38,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "AMZN": {
       "factors": {
         "clean_structure": 0,
         "momentum": 8,
@@ -2206,79 +2232,67 @@
       },
       "score": 8,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "AMZN": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 10,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
-      },
-      "score": 28,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "ARES": {
       "factors": {
         "clean_structure": 0,
         "momentum": 0,
         "price_structure": 0,
-        "relative_volume": 5,
+        "relative_volume": 0,
         "vwap": 0
       },
-      "score": 5,
+      "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BAX": {
       "factors": {
-        "clean_structure": 5,
-        "momentum": 16,
-        "price_structure": 0,
+        "clean_structure": 0,
+        "momentum": 20,
+        "price_structure": 12,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 39,
+      "score": 50,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BDX": {
       "factors": {
         "clean_structure": 20,
-        "momentum": 6,
+        "momentum": 10,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 18
       },
-      "score": 26,
+      "score": 48,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BKNG": {
       "factors": {
         "clean_structure": 20,
-        "momentum": 14,
+        "momentum": 8,
         "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 18
+        "relative_volume": 0,
+        "vwap": 6
       },
-      "score": 57,
+      "score": 34,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BKR": {
       "factors": {
-        "clean_structure": 0,
-        "momentum": 14,
+        "clean_structure": 5,
+        "momentum": 4,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 18
+        "vwap": 6
       },
-      "score": 32,
+      "score": 15,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BMY": {
       "factors": {
@@ -2290,7 +2304,7 @@
       },
       "score": 14,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BR": {
       "factors": {
@@ -2302,7 +2316,7 @@
       },
       "score": 28,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BRK-B": {
       "factors": {
@@ -2310,11 +2324,11 @@
         "momentum": 6,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 6
       },
-      "score": 6,
+      "score": 12,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BRO": {
       "factors": {
@@ -2322,33 +2336,33 @@
         "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 20
+        "vwap": 18
       },
-      "score": 34,
+      "score": 32,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "BXP": {
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "C": {
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "CBRE": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 14,
+        "momentum": 8,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 14,
+      "score": 8,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "CME": {
       "factors": {
@@ -2360,31 +2374,31 @@
       },
       "score": 32,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "COO": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 10,
+        "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 6
+        "vwap": 18
       },
-      "score": 16,
+      "score": 32,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "COR": {
       "factors": {
-        "clean_structure": 20,
-        "momentum": 8,
+        "clean_structure": 0,
+        "momentum": 4,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 28,
+      "score": 4,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "CRWD": {
       "factors": {
@@ -2392,167 +2406,131 @@
         "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 6
       },
-      "score": 14,
+      "score": 20,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "CTSH": {
       "factors": {
-        "clean_structure": 0,
-        "momentum": 8,
+        "clean_structure": 20,
+        "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 18
       },
-      "score": 8,
+      "score": 52,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DAL": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 6,
+        "momentum": 12,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 24,
+      "score": 30,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DASH": {
       "factors": {
         "clean_structure": 20,
-        "momentum": 10,
+        "momentum": 4,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 48,
+      "score": 42,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DDOG": {
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DG": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 6,
+        "momentum": 20,
         "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 6
+        "relative_volume": 10,
+        "vwap": 14
       },
-      "score": 12,
+      "score": 44,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DGX": {
       "factors": {
-        "clean_structure": 5,
+        "clean_structure": 0,
         "momentum": 8,
         "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 6
+        "relative_volume": 0,
+        "vwap": 18
       },
-      "score": 24,
+      "score": 26,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DLR": {
       "factors": {
         "clean_structure": 0,
         "momentum": 14,
         "price_structure": 0,
-        "relative_volume": 0,
+        "relative_volume": 20,
         "vwap": 18
       },
-      "score": 32,
+      "score": 52,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DLTR": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 20,
-        "price_structure": 0,
+        "momentum": 12,
+        "price_structure": 20,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 38,
+      "score": 50,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DPZ": {
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "DXCM": {
       "factors": {
-        "clean_structure": 0,
+        "clean_structure": 5,
         "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 32,
+      "score": 37,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "EMR": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 10,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 10,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "EXPE": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 0,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 0,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "FSLR": {
-      "factors": {
-        "clean_structure": 20,
         "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 20
       },
       "score": 34,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
-    "FTNT": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 10,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 10,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "GE": {
+    "EXPE": {
       "factors": {
         "clean_structure": 0,
         "momentum": 6,
@@ -2562,19 +2540,48 @@
       },
       "score": 6,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "FSLR": {
+      "factors": {
+        "clean_structure": 20,
+        "momentum": 20,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 0
+      },
+      "score": 40,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "FTNT": {
+      "score": 0,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "GE": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 0,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 0
+      },
+      "score": 0,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "GEHC": {
       "factors": {
-        "clean_structure": 5,
-        "momentum": 14,
+        "clean_structure": 0,
+        "momentum": 8,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 6
       },
-      "score": 25,
+      "score": 14,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "GM": {
       "factors": {
@@ -2586,67 +2593,60 @@
       },
       "score": 32,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "GPC": {
       "factors": {
         "clean_structure": 20,
-        "momentum": 14,
+        "momentum": 10,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 18
       },
-      "score": 34,
+      "score": 48,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "GPN": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 0,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "GRMN": {
       "factors": {
         "clean_structure": 20,
         "momentum": 10,
-        "price_structure": 9,
-        "relative_volume": 0,
-        "vwap": 18
-      },
-      "score": 57,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "HON": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 32,
+      "score": 48,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
-    "HPQ": {
+    "HON": {
       "factors": {
         "clean_structure": 0,
         "momentum": 10,
-        "price_structure": 14,
+        "price_structure": 15,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 42,
+      "score": 43,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "HPQ": {
+      "factors": {
+        "clean_structure": 20,
+        "momentum": 12,
+        "price_structure": 20,
+        "relative_volume": 15,
+        "vwap": 18
+      },
+      "score": 85,
+      "tier": "A",
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "HSIC": {
       "factors": {
@@ -2658,36 +2658,43 @@
       },
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "ICE": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 14,
+        "momentum": 8,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 6
+        "vwap": 0
       },
-      "score": 20,
+      "score": 8,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "INCY": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 10,
+        "momentum": 14,
+        "price_structure": 0,
+        "relative_volume": 5,
+        "vwap": 18
+      },
+      "score": 37,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "IP": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 20,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 28,
+      "score": 38,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "IP": {
-      "score": 0,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "IQV": {
       "factors": {
@@ -2699,72 +2706,72 @@
       },
       "score": 28,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "IR": {
       "factors": {
         "clean_structure": 5,
-        "momentum": 0,
+        "momentum": 6,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 5,
+      "score": 11,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "IT": {
       "factors": {
-        "clean_structure": 5,
+        "clean_structure": 10,
         "momentum": 8,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 13,
+      "score": 18,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "ITW": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 0,
+        "momentum": 10,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 6
       },
-      "score": 0,
+      "score": 16,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "IVZ": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 0,
+        "momentum": 12,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 0,
+      "score": 12,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "JKHY": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 4,
+        "momentum": 10,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 4,
+      "score": 10,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "KMB": {
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "KO": {
       "factors": {
@@ -2776,19 +2783,19 @@
       },
       "score": 32,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "LDOS": {
       "factors": {
         "clean_structure": 20,
         "momentum": 10,
-        "price_structure": 20,
+        "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 68,
-      "tier": "B",
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "score": 48,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "LMT": {
       "factors": {
@@ -2800,12 +2807,12 @@
       },
       "score": 38,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "MA": {
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "MET": {
       "factors": {
@@ -2813,71 +2820,71 @@
         "momentum": 6,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 6
       },
-      "score": 26,
+      "score": 32,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "MMM": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
-      },
-      "score": 24,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "MRSH": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 4,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 4,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "MSFT": {
-      "factors": {
-        "clean_structure": 20,
         "momentum": 10,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 48,
+      "score": 28,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
-    "NDAQ": {
+    "MRSH": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 14,
+        "momentum": 10,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 14,
+      "score": 10,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "MSFT": {
+      "factors": {
+        "clean_structure": 20,
+        "momentum": 8,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 0
+      },
+      "score": 28,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "NDAQ": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 8,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 0
+      },
+      "score": 8,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "NSC": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 6,
+        "momentum": 20,
         "price_structure": 0,
-        "relative_volume": 0,
+        "relative_volume": 5,
         "vwap": 18
       },
-      "score": 24,
+      "score": 43,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "NTAP": {
       "factors": {
@@ -2885,23 +2892,23 @@
         "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 6
+        "vwap": 20
       },
-      "score": 20,
+      "score": 34,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "NUE": {
       "factors": {
-        "clean_structure": 5,
-        "momentum": 16,
+        "clean_structure": 0,
+        "momentum": 20,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 39,
+      "score": 38,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "NWS": {
       "factors": {
@@ -2913,7 +2920,7 @@
       },
       "score": 6,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "NWSA": {
       "factors": {
@@ -2925,7 +2932,7 @@
       },
       "score": 6,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "PANW": {
       "factors": {
@@ -2933,11 +2940,11 @@
         "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 6
       },
-      "score": 14,
+      "score": 20,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "PAYX": {
       "factors": {
@@ -2949,67 +2956,67 @@
       },
       "score": 34,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "PTC": {
       "factors": {
-        "clean_structure": 20,
+        "clean_structure": 0,
         "momentum": 8,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 28,
+      "score": 8,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "PWR": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 16,
+        "momentum": 10,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 34,
+      "score": 28,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "PYPL": {
-      "factors": {
-        "clean_structure": 10,
-        "momentum": 4,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 14,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "RCL": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 12,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
-      },
-      "score": 50,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "RF": {
       "factors": {
         "clean_structure": 0,
         "momentum": 6,
         "price_structure": 0,
         "relative_volume": 0,
+        "vwap": 0
+      },
+      "score": 6,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "RCL": {
+      "factors": {
+        "clean_structure": 20,
+        "momentum": 6,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 6
+      },
+      "score": 32,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "RF": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 20,
+        "price_structure": 0,
+        "relative_volume": 0,
         "vwap": 18
       },
-      "score": 24,
+      "score": 38,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "RJF": {
       "factors": {
@@ -3021,31 +3028,31 @@
       },
       "score": 6,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "ROST": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
-      },
-      "score": 32,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "RTX": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 10,
+        "momentum": 4,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 6
       },
-      "score": 16,
+      "score": 10,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "RTX": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 20,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 18
+      },
+      "score": 38,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "SCHW": {
       "factors": {
@@ -3057,60 +3064,60 @@
       },
       "score": 22,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "SHW": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 14,
+        "momentum": 8,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 0
       },
-      "score": 14,
+      "score": 8,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "SLB": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 4,
+        "momentum": 6,
         "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 6
+        "relative_volume": 0,
+        "vwap": 0
       },
-      "score": 15,
+      "score": 6,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "SOLV": {
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "STLD": {
       "factors": {
-        "clean_structure": 5,
+        "clean_structure": 0,
         "momentum": 16,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 39,
+      "score": 34,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "TGT": {
       "factors": {
         "clean_structure": 0,
-        "momentum": 20,
+        "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
         "vwap": 18
       },
-      "score": 38,
+      "score": 32,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "TMO": {
       "factors": {
@@ -3122,79 +3129,55 @@
       },
       "score": 48,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "TRMB": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 4,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 4,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "V": {
-      "score": 0,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "VEEV": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 26,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "VLTO": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 8,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 28,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "VTRS": {
-      "score": 0,
-      "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
-    },
-    "VZ": {
       "factors": {
         "clean_structure": 0,
         "momentum": 14,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 18
+        "vwap": 0
       },
-      "score": 32,
+      "score": 14,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
-    "XLF": {
+    "V": {
+      "score": 0,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "VEEV": {
       "factors": {
-        "clean_structure": 0,
-        "momentum": 0,
+        "clean_structure": 20,
+        "momentum": 4,
         "price_structure": 0,
-        "relative_volume": 10,
+        "relative_volume": 0,
+        "vwap": 0
+      },
+      "score": 24,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "VLTO": {
+      "factors": {
+        "clean_structure": 20,
+        "momentum": 14,
+        "price_structure": 0,
+        "relative_volume": 0,
         "vwap": 6
       },
-      "score": 16,
+      "score": 40,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
-    "XLK": {
+    "VTRS": {
+      "score": 0,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "VZ": {
       "factors": {
         "clean_structure": 0,
         "momentum": 20,
@@ -3204,24 +3187,48 @@
       },
       "score": 38,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
-    "XYL": {
+    "XLF": {
       "factors": {
         "clean_structure": 0,
         "momentum": 6,
         "price_structure": 0,
         "relative_volume": 0,
-        "vwap": 0
+        "vwap": 6
       },
-      "score": 6,
+      "score": 12,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "XLK": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 14,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 6
+      },
+      "score": 20,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
+    },
+    "XYL": {
+      "factors": {
+        "clean_structure": 0,
+        "momentum": 10,
+        "price_structure": 0,
+        "relative_volume": 0,
+        "vwap": 6
+      },
+      "score": 16,
+      "tier": null,
+      "updated_at": "2026-08-07T12:45:00-04:00"
     },
     "XYZ": {
       "score": 0,
       "tier": null,
-      "updated_at": "2026-08-07T11:45:00-04:00"
+      "updated_at": "2026-08-07T12:45:00-04:00"
     }
   },
   "version": 1
