@@ -1,1 +1,2 @@
 trade_id,ticker,tier,score,signal_time,entry_time,exit_time,entry_price,initial_stop,tp1,tp2,quantity,realized_pnl,return_percent,r_multiple,outcome,holding_trading_days
+VEEV-20260807-0945-0a9c85,VEEV,A,92,2026-08-07T09:45:00-04:00,2026-08-07T10:00:00-04:00,2026-08-07T11:30:00-04:00,228.58,226.8589,230.3011,232.0222,8,6.88,0.376,0.5,BREAKEVEN STOP,1
