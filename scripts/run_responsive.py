@@ -5,7 +5,7 @@ import logging
 import sys
 
 from swing_bot.config import load_config
-from swing_bot.responsive_runtime import run_responsive_auto
+from swing_bot.single_account_runtime import run_single_account_auto
 
 
 def main() -> int:
@@ -15,7 +15,7 @@ def main() -> int:
     )
     try:
         config = load_config("config/settings.yaml")
-        result = run_responsive_auto(config)
+        result = run_single_account_auto(config)
         print(json.dumps(result, indent=2))
         return 0
     except Exception as exc:
