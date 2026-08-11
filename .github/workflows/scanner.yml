@@ -2,9 +2,9 @@ name: Free Swing Paper Bot
 
 on:
   schedule:
-    # Wide UTC window covers both EST and EDT. The Python market calendar decides
-    # whether the NYSE is actually open, closed, on holiday, or in the after-close window.
-    - cron: "*/15 13-22 * * 1-5"
+    # Wake the paper-position monitor every 5 minutes, offset from the top of the hour.
+    # The setup scanner itself still only evaluates fresh closed 15-minute candles.
+    - cron: "2-57/5 13-22 * * 1-5"
   workflow_dispatch:
     inputs:
       mode:
@@ -58,13 +58,22 @@ jobs:
             bot-runtime-
 
       - name: Install bot
-        run: pip install -e . pytest
+        run: pip install -e .
 
-      - name: Run tests
-        run: pytest -q
+      - name: Run tests for manual checks
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          pip install pytest
+          pytest -q
 
       - name: Run bot
-        run: python -m swing_bot.cli "$MODE"
+        shell: bash
+        run: |
+          if [ "$MODE" = "auto" ]; then
+            python scripts/run_responsive.py
+          else
+            python -m swing_bot.cli "$MODE"
+          fi
 
       - name: Commit important state and trade events
         if: always()
