@@ -55,11 +55,12 @@ scoring:
 
 paper_trading:
   enabled: true
+  account_mode: single_all_in
   minimum_trade_score: 80
   starting_account_value: 10000.0
-  risk_per_trade_percent: 1.0
-  max_position_notional_percent: 20.0
-  max_open_positions: 5
+  risk_per_trade_percent: 100.0
+  max_position_notional_percent: 100.0
+  max_open_positions: 1
   entry_buffer_percent: 0.15
   pending_expiry_trading_days: 2
   time_stop_trading_days: 5
