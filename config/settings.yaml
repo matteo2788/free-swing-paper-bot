@@ -71,6 +71,8 @@ paper_trading:
   runner_ema_period_1h: 20
   minimum_stop_percent: 0.35
   maximum_stop_percent: 4.0
+  monitor_interval: 5m
+  monitor_data_period: 5d
 
 alerts:
   username: Free Swing Paper Bot
