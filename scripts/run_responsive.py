@@ -5,8 +5,7 @@ import logging
 import sys
 
 from swing_bot.config import load_config
-from swing_bot.entry_receipt import install_entry_receipt
-from swing_bot.single_account_runtime import run_single_account_auto
+from swing_bot.quant_runtime import run_quant_auto
 
 
 def main() -> int:
@@ -15,13 +14,12 @@ def main() -> int:
         format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
     )
     try:
-        install_entry_receipt()
         config = load_config("config/settings.yaml")
-        result = run_single_account_auto(config)
+        result = run_quant_auto(config)
         print(json.dumps(result, indent=2))
         return 0
     except Exception as exc:
-        logging.getLogger(__name__).exception("Responsive bot run failed: %s", exc)
+        logging.getLogger(__name__).exception("Quant bot run failed: %s", exc)
         return 1
 
 
