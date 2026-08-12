@@ -1430,26 +1430,19 @@
     }
   },
   "last_daily_refresh": "2026-08-11",
-  "last_paper_monitor_at": "2026-08-12T10:17:29.661040-04:00",
+  "last_paper_monitor_at": "2026-08-12T11:16:34.656039-04:00",
   "last_scan_bar": "2026-08-12T10:00:00-04:00",
   "last_summary_date": "2026-08-11",
   "market_regime": {
-    "allow_new_longs": true,
-    "checked_at": "2026-08-12T10:17:29.661040-04:00",
+    "allow_new_longs": false,
+    "checked_at": "2026-08-12T11:16:34.656039-04:00",
     "metrics": {
-      "qqq_close": 724.605,
-      "qqq_ema20": 708.809093,
-      "qqq_ema20_slope_percent": 1.094195,
-      "spy_atr_expansion_ratio": 0.92496,
-      "spy_close": 772.515,
-      "spy_downside_return_percent": -0.0963,
-      "spy_ema20": 758.067109,
-      "spy_ema20_slope_percent": 1.180062,
-      "vix_close": 14.85,
-      "vix_expansion_ratio": 0.87258,
-      "volatility_expanding_down": false
+      "enabled": true,
+      "minimum_rows": 40
     },
-    "reasons": []
+    "reasons": [
+      "insufficient_macro_data"
+    ]
   },
   "paper_account_model_version": 2,
   "paper_account_reset_at": "2026-08-12T14:17:29+00:00",
