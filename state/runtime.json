@@ -1430,113 +1430,52 @@
     }
   },
   "last_daily_refresh": "2026-08-11",
-  "last_scan_bar": "2026-08-11T15:00:00-04:00",
+  "last_paper_monitor_at": "2026-08-12T10:17:29.661040-04:00",
+  "last_scan_bar": "2026-08-12T10:00:00-04:00",
   "last_summary_date": "2026-08-11",
-  "pending": {
-    "BDX-20260811-1500-e8abf1": {
-      "entry_high": 181.8674,
-      "entry_low": 181.595,
-      "last_processed_bar": "2026-08-11T15:00:00-04:00",
-      "score": 82,
-      "signal_time": "2026-08-11T15:00:00-04:00",
-      "stop": 180.9594,
-      "ticker": "BDX",
-      "tier": "A",
-      "tp1": 182.2306,
-      "tp2": 182.8662,
-      "trade_id": "BDX-20260811-1500-e8abf1"
+  "market_regime": {
+    "allow_new_longs": true,
+    "checked_at": "2026-08-12T10:17:29.661040-04:00",
+    "metrics": {
+      "qqq_close": 724.605,
+      "qqq_ema20": 708.809093,
+      "qqq_ema20_slope_percent": 1.094195,
+      "spy_atr_expansion_ratio": 0.92496,
+      "spy_close": 772.515,
+      "spy_downside_return_percent": -0.0963,
+      "spy_ema20": 758.067109,
+      "spy_ema20_slope_percent": 1.180062,
+      "vix_close": 14.85,
+      "vix_expansion_ratio": 0.87258,
+      "volatility_expanding_down": false
     },
-    "NFLX-20260811-0945-364a70": {
-      "entry_high": 77.0053,
-      "entry_low": 76.89,
-      "last_processed_bar": "2026-08-11T15:00:00-04:00",
-      "score": 81,
-      "signal_time": "2026-08-11T09:45:00-04:00",
-      "stop": 76.5432,
-      "ticker": "NFLX",
-      "tier": "A",
-      "tp1": 77.2368,
-      "tp2": 77.5835,
-      "trade_id": "NFLX-20260811-0945-364a70"
-    }
+    "reasons": []
   },
-  "positions": {
-    "TGT-20260810-1100-745c64": {
-      "entry_price": 151.3467,
-      "entry_time": "2026-08-11T14:00:00-04:00",
-      "exits": [
-        {
-          "pnl": 5.19,
-          "price": 152.2109,
-          "quantity": 6,
-          "reason": "TP1",
-          "time": "2026-08-11T14:30:00-04:00"
-        }
-      ],
-      "initial_notional": 1967.51,
-      "initial_risk_dollars": 11.23,
-      "initial_stop": 150.4825,
-      "last_price": 152.36,
-      "last_processed_bar": "2026-08-11T15:00:00-04:00",
-      "last_r_multiple": 1.094,
-      "last_return_percent": 0.624,
-      "quantity": 13,
-      "realized_pnl": 5.19,
-      "remaining_quantity": 7,
-      "score": 85,
-      "signal_time": "2026-08-10T11:00:00-04:00",
-      "stage": 1,
-      "stop": 151.3467,
-      "target_1_quantity": 6,
-      "target_2_quantity": 3,
-      "ticker": "TGT",
-      "tier": "A",
-      "tp1": 152.2109,
-      "tp2": 153.0751,
-      "trade_id": "TGT-20260810-1100-745c64"
-    },
-    "TMO-20260807-1530-9190a6": {
-      "entry_price": 590.005,
-      "entry_time": "2026-08-07T15:45:00-04:00",
-      "exits": [
-        {
-          "pnl": 2.07,
-          "price": 592.07,
-          "quantity": 1,
-          "reason": "TP1",
-          "time": "2026-08-10T09:30:00-04:00"
-        },
-        {
-          "pnl": 4.13,
-          "price": 594.135,
-          "quantity": 1,
-          "reason": "TP2",
-          "time": "2026-08-10T09:30:00-04:00"
-        }
-      ],
-      "initial_notional": 1770.01,
-      "initial_risk_dollars": 6.19,
-      "initial_stop": 587.94,
-      "last_price": 604.9,
-      "last_processed_bar": "2026-08-11T15:00:00-04:00",
-      "last_r_multiple": 3.408,
-      "last_return_percent": 1.192,
-      "quantity": 3,
-      "realized_pnl": 6.2,
-      "remaining_quantity": 1,
-      "score": 82,
-      "signal_time": "2026-08-07T15:30:00-04:00",
-      "stage": 2,
-      "stop": 590.005,
-      "target_1_quantity": 1,
-      "target_2_quantity": 1,
-      "ticker": "TMO",
-      "tier": "A",
-      "tp1": 592.07,
-      "tp2": 594.135,
-      "trade_id": "TMO-20260807-1530-9190a6"
-    }
+  "paper_account_model_version": 2,
+  "paper_account_reset_at": "2026-08-12T14:17:29+00:00",
+  "paper_account_starting_value": 10000.0,
+  "paper_account_value": 10000.0,
+  "pending": {},
+  "performance": {
+    "breakeven": 0,
+    "closed_trades": 0,
+    "current_account_value": 10000.0,
+    "expectancy_dollars": 0.0,
+    "gross_loss": 0.0,
+    "gross_profit": 0.0,
+    "losses": 0,
+    "max_drawdown_dollars": 0.0,
+    "max_drawdown_percent": 0.0,
+    "peak_equity": 10000.0,
+    "profit_factor": 0.0,
+    "starting_account_value": 10000.0,
+    "total_pnl": 0.0,
+    "win_rate_percent": 0.0,
+    "wins": 0
   },
+  "positions": {},
+  "quant_model_migrated_at": "2026-08-12T14:17:29+00:00",
+  "quant_model_version": 1,
   "scores": {
     "ABNB": {
       "factors": {
