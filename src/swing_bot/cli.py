@@ -4,22 +4,21 @@ import argparse
 import json
 import logging
 import sys
-from pathlib import Path
 
 from .config import load_config
-from .engine import SwingBotEngine
+from .quant_runtime import build_quant_engine, run_quant_auto
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Free paper-trading swing scanner")
+    parser = argparse.ArgumentParser(description="Quant paper-trading swing scanner")
     parser.add_argument("--config", default="config/settings.yaml", help="Path to YAML configuration")
     parser.add_argument("--dry-run", action="store_true", help="Print alerts instead of posting to Discord")
     subparsers = parser.add_subparsers(dest="command")
-    subparsers.add_parser("auto", help="Automatically choose scan, after-close, or idle mode")
-    subparsers.add_parser("scan", help="Run one market-hours scan")
-    subparsers.add_parser("refresh", help="Refresh the daily context pool")
+    subparsers.add_parser("auto", help="Automatically choose scan, risk-off, after-close, or idle mode")
+    subparsers.add_parser("scan", help="Run one macro-gated quant scan")
+    subparsers.add_parser("refresh", help="Refresh the daily context and sector-relative-strength pool")
     subparsers.add_parser("test-discord", help="Send a Discord connection test")
-    subparsers.add_parser("status", help="Print saved bot state summary")
+    subparsers.add_parser("status", help="Print saved quant bot state summary")
     return parser
 
 
@@ -33,11 +32,13 @@ def main(argv: list[str] | None = None) -> int:
     command = args.command or "auto"
     try:
         config = load_config(args.config)
-        engine = SwingBotEngine(config, dry_run=args.dry_run)
         if command == "auto":
-            result = engine.auto()
+            result = run_quant_auto(config, dry_run=args.dry_run)
             print(json.dumps(result, indent=2))
-        elif command == "scan":
+            return 0
+
+        engine = build_quant_engine(config, dry_run=args.dry_run)
+        if command == "scan":
             result = engine.scan()
             print(json.dumps(result, indent=2))
         elif command == "refresh":
@@ -52,7 +53,7 @@ def main(argv: list[str] | None = None) -> int:
             engine.print_status()
         return 0
     except Exception as exc:
-        logging.getLogger(__name__).exception("Bot command failed: %s", exc)
+        logging.getLogger(__name__).exception("Quant bot command failed: %s", exc)
         return 1
 
 
