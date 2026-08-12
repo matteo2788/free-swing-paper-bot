@@ -53,22 +53,84 @@ scoring:
   macd_signal: 9
   atr_period: 14
 
+regime:
+  enabled: true
+  data_period: 6mo
+  ema_period: 20
+  ema_slope_lookback_days: 5
+  require_positive_ema_slopes: true
+  atr_period: 14
+  volatility_lookback_days: 20
+  vix_symbol: ^VIX
+  vix_expansion_ratio: 1.20
+  atr_expansion_ratio: 1.25
+  downside_lookback_days: 3
+  downside_threshold_percent: -1.0
+
+alpha:
+  minimum_intraday_bars: 220
+  watchlist_score: 60
+  volatility_weight: 0.30
+  relative_strength_weight: 0.30
+  volume_weight: 0.20
+  gamma_weight: 0.20
+  bollinger_period: 20
+  bollinger_std: 2.0
+  keltner_period: 20
+  keltner_atr_multiplier: 1.5
+  squeeze_lookback_bars: 50
+  squeeze_bandwidth_percentile_max: 10.0
+  momentum_lookback_bars: 20
+  momentum_smoothing_bars: 5
+  relative_strength_z_min: 1.75
+  rvol_lookback_bars: 20
+  rvol_min: 2.5
+  swing_high_lookback_bars: 80
+  swing_high_wing_bars: 3
+  atr_period: 14
+  sector_etfs:
+    Communication Services: XLC
+    Consumer Discretionary: XLY
+    Consumer Staples: XLP
+    Energy: XLE
+    Financials: XLF
+    Health Care: XLV
+    Industrials: XLI
+    Information Technology: XLK
+    Materials: XLB
+    Real Estate: XLRE
+    Utilities: XLU
+
+options_gamma:
+  enabled: false
+  snapshot_path: data/options_gamma.json
+  max_age_minutes: 60
+
 paper_trading:
   enabled: true
-  account_mode: single_all_in
+  account_mode: single_atr_risk_parity
   minimum_trade_score: 80
   starting_account_value: 10000.0
-  risk_per_trade_percent: 100.0
+  risk_per_trade_percent: 2.0
   max_position_notional_percent: 100.0
   max_open_positions: 1
   entry_buffer_percent: 0.15
   pending_expiry_trading_days: 2
   time_stop_trading_days: 5
-  target_1_r: 1.0
-  target_2_r: 2.0
+  stop_atr_multiple: 1.5
+  target_1_atr_multiple: 1.5
+  target_2_atr_multiple: 2.5
+  trailing_atr_multiple: 2.0
+  atr_period: 14
   target_1_exit_fraction: 0.50
   target_2_exit_fraction: 0.25
   runner_exit_fraction: 0.25
+  slippage_percent: 0.05
+  transaction_fee_percent: 0.01
+  early_invalidation_bars: 3
+  # Retained for backwards-compatible legacy modules; quant runtime uses ATR multiples above.
+  target_1_r: 1.0
+  target_2_r: 2.0
   runner_ema_period_1h: 20
   minimum_stop_percent: 0.35
   maximum_stop_percent: 4.0
