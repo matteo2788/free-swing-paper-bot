@@ -1,0 +1,38 @@
+name: Quant Data Smoke
+
+on:
+  push:
+    branches:
+      - agent/fix-zero-quant-scans
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Verify 15m history feeds quant model
+        run: |
+          python - <<'PY'
+          from swing_bot.config import load_config
+          from swing_bot.data_provider import YahooDataProvider
+
+          config = load_config("config/settings.yaml")
+          system = config.section("system")
+          alpha = config.section("alpha")
+          period = str(system["data_period_intraday"])
+          interval = str(system["trigger_interval"])
+          minimum = int(alpha["minimum_intraday_bars"])
+
+          provider = YahooDataProvider(batch_size=2, pause_seconds=0)
+          frames = provider.download(["AAPL", "MSFT"], period=period, interval=interval)
+          counts = {ticker: len(frame) for ticker, frame in frames.items()}
+          print({"period": period, "interval": interval, "minimum": minimum, "counts": counts})
+
+          assert "AAPL" in frames and len(frames["AAPL"]) >= minimum
+          assert "MSFT" in frames and len(frames["MSFT"]) >= minimum
+          PY
