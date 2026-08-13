@@ -1,9 +1,9 @@
 name: Quant Data Smoke
 
 on:
-  push:
+  pull_request:
     branches:
-      - agent/fix-zero-quant-scans
+      - main
 
 jobs:
   smoke:
