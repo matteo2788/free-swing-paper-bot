@@ -1277,23 +1277,23 @@
     }
   },
   "last_daily_refresh": "2026-08-12",
-  "last_paper_monitor_at": "2026-08-12T15:14:37.645585-04:00",
-  "last_scan_bar": "2026-08-12T14:45:00-04:00",
+  "last_paper_monitor_at": "2026-08-13T10:19:14.276181-04:00",
+  "last_scan_bar": "2026-08-13T10:00:00-04:00",
   "last_summary_date": "2026-08-12",
   "market_regime": {
     "allow_new_longs": true,
-    "checked_at": "2026-08-12T15:14:37.645585-04:00",
+    "checked_at": "2026-08-13T10:19:14.276181-04:00",
     "metrics": {
-      "qqq_close": 724.415,
-      "qqq_ema20": 708.790998,
-      "qqq_ema20_slope_percent": 1.091614,
-      "spy_atr_expansion_ratio": 0.92496,
-      "spy_close": 773.0524,
-      "spy_downside_return_percent": -0.0268,
-      "spy_ema20": 758.118291,
-      "spy_ema20_slope_percent": 1.186894,
-      "vix_close": 14.53,
-      "vix_expansion_ratio": 0.853777,
+      "qqq_close": 732.35,
+      "qqq_ema20": 710.973108,
+      "qqq_ema20_slope_percent": 1.217055,
+      "spy_atr_expansion_ratio": 0.913104,
+      "spy_close": 778.5701,
+      "spy_downside_return_percent": 0.7167,
+      "spy_ema20": 760.017623,
+      "spy_ema20_slope_percent": 1.191703,
+      "vix_close": 14.67,
+      "vix_expansion_ratio": 0.864849,
       "volatility_expanding_down": false
     },
     "reasons": []
@@ -1325,16 +1325,43 @@
   "quant_model_version": 1,
   "scores": {
     "ABNB": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 8,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
+      "alpha_score": 89.102,
+      "composite_z": 1.232,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 19.257441,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 2.2384
+        },
+        "volatility": {
+          "raw": 2.414677,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.5209
+        },
+        "volume": {
+          "raw": 1.534611,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.789
+        }
       },
-      "score": 46,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": true,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 89,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "ABT": {
       "factors": {
@@ -1443,16 +1470,43 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "AMGN": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 0,
-        "price_structure": 0,
-        "relative_volume": 15,
-        "vwap": 0
+      "alpha_score": 30.386,
+      "composite_z": -0.5133,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 5.089613,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.5771
+        },
+        "volatility": {
+          "raw": 0.822649,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.579
+        },
+        "volume": {
+          "raw": 0.555468,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.3192
+        }
       },
-      "score": 15,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 30,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "AMZN": {
       "factors": {
@@ -1466,53 +1520,278 @@
       "tier": null,
       "updated_at": "2026-08-11T15:00:00-04:00"
     },
+    "ANET": {
+      "alpha_score": 32.658,
+      "composite_z": -0.4494,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 11.764773,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.7494
+        },
+        "volatility": {
+          "raw": 0.08918,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.0858
+        },
+        "volume": {
+          "raw": -0.304976,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.293
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 33,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "APO": {
+      "alpha_score": 57.042,
+      "composite_z": 0.1774,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 10.607893,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.5195
+        },
+        "volatility": {
+          "raw": 1.797506,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.0945
+        },
+        "volume": {
+          "raw": 0.650851,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.2112
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 57,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
     "ARES": {
-      "factors": {
-        "clean_structure": 10,
-        "momentum": 8,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
+      "alpha_score": 77.541,
+      "composite_z": 0.7568,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 8.880565,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.1763
+        },
+        "volatility": {
+          "raw": 3.301069,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.1333
+        },
+        "volume": {
+          "raw": 1.776608,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.0628
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 78,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "BA": {
+      "alpha_score": 8.137,
+      "composite_z": -1.3959,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 0.164629,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.5558
+        },
+        "volatility": {
+          "raw": 0.0,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.1474
+        },
+        "volume": {
+          "raw": -0.513503,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.529
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 8,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "BAC": {
+      "alpha_score": 10.824,
+      "composite_z": -1.2359,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 2.713965,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.0492
+        },
+        "volatility": {
+          "raw": 0.284938,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.9505
+        },
+        "volume": {
+          "raw": -0.880341,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.9442
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 11,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "BAX": {
+      "alpha_score": 36.015,
+      "composite_z": -0.3581,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 4.498194,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.6946
+        },
+        "volatility": {
+          "raw": 1.124505,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.3705
+        },
+        "volume": {
+          "raw": 0.983641,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.1654
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
       },
       "score": 36,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
-    },
-    "BA": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
-      },
-      "score": 6,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
-    },
-    "BAX": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 20,
-        "vwap": 18
-      },
-      "score": 52,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "BDX": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 16,
-        "price_structure": 18,
-        "relative_volume": 10,
-        "vwap": 18
+      "alpha_score": 77.592,
+      "composite_z": 0.7585,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 9.687558,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.3366
+        },
+        "volatility": {
+          "raw": 3.200004,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.0634
+        },
+        "volume": {
+          "raw": 1.662644,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.9339
+        }
       },
-      "score": 82,
-      "tier": "A",
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 78,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "BKNG": {
       "factors": {
@@ -1527,16 +1806,43 @@
       "updated_at": "2026-08-11T15:00:00-04:00"
     },
     "BKR": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 18
+      "alpha_score": 14.152,
+      "composite_z": -1.0735,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 1.001487,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.3895
+        },
+        "volatility": {
+          "raw": 0.416914,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.8593
+        },
+        "volume": {
+          "raw": 0.023886,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.9208
+        }
       },
-      "score": 57,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 14,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "BMY": {
       "factors": {
@@ -1550,17 +1856,83 @@
       "tier": "B",
       "updated_at": "2026-08-07T15:30:00-04:00"
     },
-    "BR": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 0,
-        "price_structure": 0,
-        "relative_volume": 20,
-        "vwap": 0
+    "BNY": {
+      "alpha_score": 14.379,
+      "composite_z": -1.0634,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 2.914624,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.0093
+        },
+        "volatility": {
+          "raw": 0.45818,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.8308
+        },
+        "volume": {
+          "raw": -0.482183,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.4936
+        }
       },
-      "score": 20,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 14,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "BR": {
+      "alpha_score": 64.862,
+      "composite_z": 0.3816,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 8.222086,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.0454
+        },
+        "volatility": {
+          "raw": 2.263914,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.4167
+        },
+        "volume": {
+          "raw": 1.573713,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.8332
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": true
+      },
+      "score": 65,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "BRK-B": {
       "factors": {
@@ -1586,6 +1958,45 @@
       "tier": null,
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
+    "BX": {
+      "alpha_score": 73.31,
+      "composite_z": 0.6222,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 10.301092,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.4586
+        },
+        "volatility": {
+          "raw": 2.73814,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.7443
+        },
+        "volume": {
+          "raw": 1.44233,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.6845
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 73,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
     "BXP": {
       "score": 0,
       "tier": null,
@@ -1602,28 +2013,82 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "CHTR": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 12,
-        "price_structure": 20,
-        "relative_volume": 5,
-        "vwap": 18
+      "alpha_score": 61.855,
+      "composite_z": 0.3017,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 7.353356,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.1272
+        },
+        "volatility": {
+          "raw": 2.552533,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.6161
+        },
+        "volume": {
+          "raw": 1.255732,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.4733
+        }
       },
-      "score": 55,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 62,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "CLX": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 6
+      "alpha_score": 28.193,
+      "composite_z": -0.5771,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 4.778157,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.639
+        },
+        "volatility": {
+          "raw": 0.0,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.1474
+        },
+        "volume": {
+          "raw": 1.165353,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.3711
+        }
       },
-      "score": 25,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 28,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "CMCSA": {
       "factors": {
@@ -1649,17 +2114,83 @@
       "tier": null,
       "updated_at": "2026-08-07T15:30:00-04:00"
     },
-    "COO": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 10,
-        "price_structure": 0,
-        "relative_volume": 20,
-        "vwap": 18
+    "COF": {
+      "alpha_score": 42.917,
+      "composite_z": -0.1785,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 3.226463,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.9473
+        },
+        "volatility": {
+          "raw": 1.940874,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.1935
+        },
+        "volume": {
+          "raw": 1.20566,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.4167
+        }
       },
-      "score": 68,
-      "tier": "B",
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 43,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "COO": {
+      "alpha_score": 35.723,
+      "composite_z": -0.3659,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 1.017451,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.3863
+        },
+        "volatility": {
+          "raw": 2.120274,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.3175
+        },
+        "volume": {
+          "raw": 0.960933,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.1397
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 36,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "COR": {
       "factors": {
@@ -1674,16 +2205,43 @@
       "updated_at": "2026-08-07T15:30:00-04:00"
     },
     "CRWD": {
-      "factors": {
-        "clean_structure": 5,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 0
+      "alpha_score": 44.661,
+      "composite_z": -0.1342,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 3.671604,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.8589
+        },
+        "volatility": {
+          "raw": 1.869442,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.1442
+        },
+        "volume": {
+          "raw": 1.310249,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.535
+        }
       },
-      "score": 16,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 45,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "CTSH": {
       "factors": {
@@ -1703,16 +2261,43 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "DASH": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 18
+      "alpha_score": 43.907,
+      "composite_z": -0.1533,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 7.35467,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.127
+        },
+        "volatility": {
+          "raw": 0.527354,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.783
+        },
+        "volume": {
+          "raw": 1.501688,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.7517
+        }
       },
-      "score": 37,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 44,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "DDOG": {
       "score": 0,
@@ -1766,28 +2351,82 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "DRI": {
-      "factors": {
-        "clean_structure": 15,
-        "momentum": 8,
-        "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 18
+      "alpha_score": 82.046,
+      "composite_z": 0.9171,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 11.904837,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.7773
+        },
+        "volatility": {
+          "raw": 3.681015,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.3957
+        },
+        "volume": {
+          "raw": 1.198794,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.4089
+        }
       },
-      "score": 46,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 82,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "DXCM": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 10,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
+      "alpha_score": 65.022,
+      "composite_z": 0.3859,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 12.836693,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.9624
+        },
+        "volatility": {
+          "raw": 1.650434,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.0071
+        },
+        "volume": {
+          "raw": 0.935274,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.1107
+        }
       },
-      "score": 48,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 65,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "ECL": {
       "factors": {
@@ -1802,88 +2441,316 @@
       "updated_at": "2026-08-11T15:00:00-04:00"
     },
     "EMR": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 20,
-        "relative_volume": 10,
-        "vwap": 18
+      "alpha_score": 30.485,
+      "composite_z": -0.5105,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 9.943401,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.3875
+        },
+        "volatility": {
+          "raw": 0.373624,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.8892
+        },
+        "volume": {
+          "raw": -0.301718,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.2893
+        }
       },
-      "score": 54,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 30,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "EW": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 8,
-        "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 18
+      "alpha_score": 14.495,
+      "composite_z": -1.0583,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": -1.53049,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.8926
+        },
+        "volatility": {
+          "raw": 0.410649,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.8637
+        },
+        "volume": {
+          "raw": 0.750041,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.099
+        }
       },
-      "score": 31,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 14,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "EXPD": {
+      "alpha_score": 66.479,
+      "composite_z": 0.4256,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 3.499872,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.893
+        },
+        "volatility": {
+          "raw": 4.07179,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.6657
+        },
+        "volume": {
+          "raw": 1.3174,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.5431
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 66,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "EXPE": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 8,
-        "price_structure": 0,
-        "relative_volume": 10,
-        "vwap": 6
+      "alpha_score": 34.757,
+      "composite_z": -0.3919,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 10.549339,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.5079
+        },
+        "volatility": {
+          "raw": 0.601677,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.7317
+        },
+        "volume": {
+          "raw": -0.250981,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.2319
+        }
       },
-      "score": 44,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 35,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "FAST": {
-      "factors": {
-        "clean_structure": 15,
-        "momentum": 10,
-        "price_structure": 0,
-        "relative_volume": 15,
-        "vwap": 0
+      "alpha_score": 21.56,
+      "composite_z": -0.7871,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 8.351675,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.0712
+        },
+        "volatility": {
+          "raw": 0.0,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.1474
+        },
+        "volume": {
+          "raw": -0.518111,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.5342
+        }
       },
-      "score": 40,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
-    },
-    "FERG": {
-      "factors": {
-        "clean_structure": 5,
-        "momentum": 12,
-        "price_structure": 0,
-        "relative_volume": 5,
-        "vwap": 0
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
       },
       "score": 22,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "FERG": {
+      "alpha_score": 10.764,
+      "composite_z": -1.2392,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": -0.364,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.6608
+        },
+        "volatility": {
+          "raw": 0.378701,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.8857
+        },
+        "volume": {
+          "raw": -0.167105,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.137
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 11,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "FOX": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 10,
-        "vwap": 0
+      "alpha_score": 94.801,
+      "composite_z": 1.6259,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 11.878281,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.772
+        },
+        "volatility": {
+          "raw": 5.448087,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 2.6166
+        },
+        "volume": {
+          "raw": 2.092808,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.4207
+        }
       },
-      "score": 16,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 95,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "FOXA": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 15,
-        "vwap": 0
+      "alpha_score": 93.983,
+      "composite_z": 1.5533,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 10.980972,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.5937
+        },
+        "volatility": {
+          "raw": 5.147542,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 2.4089
+        },
+        "volume": {
+          "raw": 2.347863,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.7094
+        }
       },
-      "score": 21,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 94,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "FSLR": {
       "factors": {
@@ -1970,16 +2837,43 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "GRMN": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 10,
-        "price_structure": 0,
-        "relative_volume": 15,
-        "vwap": 6
+      "alpha_score": 61.633,
+      "composite_z": 0.2958,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 14.49988,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.2929
+        },
+        "volatility": {
+          "raw": 1.209664,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.3116
+        },
+        "volume": {
+          "raw": 0.582542,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.2885
+        }
       },
-      "score": 31,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 62,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "HAS": {
       "factors": {
@@ -2102,16 +2996,43 @@
       "updated_at": "2026-08-07T15:30:00-04:00"
     },
     "IT": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 10,
-        "vwap": 0
+      "alpha_score": 32.875,
+      "composite_z": -0.4434,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 12.682452,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.9318
+        },
+        "volatility": {
+          "raw": 0.05631,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.1085
+        },
+        "volume": {
+          "raw": -0.495387,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.5085
+        }
       },
-      "score": 16,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 33,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "ITW": {
       "factors": {
@@ -2126,16 +3047,43 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "IVZ": {
-      "factors": {
-        "clean_structure": 10,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 10,
-        "vwap": 0
+      "alpha_score": 52.841,
+      "composite_z": 0.0713,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 3.660736,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.861
+        },
+        "volatility": {
+          "raw": 2.804162,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.79
+        },
+        "volume": {
+          "raw": 1.183548,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.3916
+        }
       },
-      "score": 26,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 53,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "JKHY": {
       "factors": {
@@ -2167,28 +3115,82 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "LDOS": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 6
+      "alpha_score": 89.687,
+      "composite_z": 1.2639,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 20.227423,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 2.4311
+        },
+        "volatility": {
+          "raw": 2.311156,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.4494
+        },
+        "volume": {
+          "raw": 1.486834,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.7349
+        }
       },
-      "score": 40,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": true,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 90,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "LMT": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 15,
-        "vwap": 18
+      "alpha_score": 32.102,
+      "composite_z": -0.4648,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 10.525168,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.5031
+        },
+        "volatility": {
+          "raw": 0.0,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.1474
+        },
+        "volume": {
+          "raw": 0.048515,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.8929
+        }
       },
-      "score": 39,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 32,
       "tier": null,
-      "updated_at": "2026-08-07T15:30:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "MA": {
       "score": 0,
@@ -2224,6 +3226,45 @@
       "tier": null,
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
+    "MPC": {
+      "alpha_score": 51.307,
+      "composite_z": 0.0328,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 9.426666,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.2848
+        },
+        "volatility": {
+          "raw": 1.523084,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.0951
+        },
+        "volume": {
+          "raw": 0.701927,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.1534
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 51,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
     "MRSH": {
       "factors": {
         "clean_structure": 10,
@@ -2237,16 +3278,43 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "MSFT": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 16,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
+      "alpha_score": 71.384,
+      "composite_z": 0.5646,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 9.945417,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.3879
+        },
+        "volatility": {
+          "raw": 2.508338,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.5856
+        },
+        "volume": {
+          "raw": 1.542959,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.7984
+        }
       },
-      "score": 34,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 71,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "NDAQ": {
       "factors": {
@@ -2259,6 +3327,45 @@
       "score": 26,
       "tier": null,
       "updated_at": "2026-08-07T15:30:00-04:00"
+    },
+    "NEM": {
+      "alpha_score": 46.467,
+      "composite_z": -0.0887,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 16.460483,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.6825
+        },
+        "volatility": {
+          "raw": 0.299569,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.9404
+        },
+        "volume": {
+          "raw": -0.459507,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.4679
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 46,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "NFLX": {
       "factors": {
@@ -2278,28 +3385,82 @@
       "updated_at": "2026-08-07T15:30:00-04:00"
     },
     "NTAP": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 6
+      "alpha_score": 88.548,
+      "composite_z": 1.2028,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 12.968768,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.9887
+        },
+        "volatility": {
+          "raw": 3.743931,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.4392
+        },
+        "volume": {
+          "raw": 1.870781,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.1694
+        }
       },
-      "score": 20,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 89,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "NUE": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 16,
-        "price_structure": 0,
-        "relative_volume": 10,
-        "vwap": 0
+      "alpha_score": 38.964,
+      "composite_z": -0.2803,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 5.586066,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.4784
+        },
+        "volatility": {
+          "raw": 1.296191,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.2519
+        },
+        "volume": {
+          "raw": 0.814867,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.0256
+        }
       },
-      "score": 26,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 39,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "NWS": {
       "factors": {
@@ -2326,28 +3487,82 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "ORCL": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 12,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
+      "alpha_score": 69.789,
+      "composite_z": 0.5183,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 8.12632,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.0264
+        },
+        "volatility": {
+          "raw": 2.628187,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.6684
+        },
+        "volume": {
+          "raw": 1.748635,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.0312
+        }
       },
-      "score": 12,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 70,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "PANW": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 14
+      "alpha_score": 71.949,
+      "composite_z": 0.5813,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 5.218464,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.5515
+        },
+        "volatility": {
+          "raw": 3.55383,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.3079
+        },
+        "volume": {
+          "raw": 1.88956,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.1907
+        }
       },
-      "score": 28,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 72,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "PAYX": {
       "factors": {
@@ -2374,28 +3589,160 @@
       "updated_at": "2026-08-11T15:00:00-04:00"
     },
     "PLTR": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 20,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
+      "alpha_score": 85.488,
+      "composite_z": 1.0576,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 15.117063,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.4156
+        },
+        "volatility": {
+          "raw": 2.624556,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.6659
+        },
+        "volume": {
+          "raw": 1.816743,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.1083
+        }
       },
-      "score": 38,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 85,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "PSKY": {
+      "alpha_score": 74.08,
+      "composite_z": 0.6458,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 6.437135,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.3093
+        },
+        "volatility": {
+          "raw": 3.078709,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.9796
+        },
+        "volume": {
+          "raw": 2.231585,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.5778
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 74,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "PSX": {
+      "alpha_score": 17.311,
+      "composite_z": -0.9419,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 5.929642,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.4101
+        },
+        "volatility": {
+          "raw": 0.0,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.1474
+        },
+        "volume": {
+          "raw": -0.427351,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.4315
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 17,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "PTC": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 15,
-        "vwap": 0
+      "alpha_score": 34.208,
+      "composite_z": -0.4068,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 9.591013,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.3175
+        },
+        "volatility": {
+          "raw": 0.001122,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.1466
+        },
+        "volume": {
+          "raw": 0.498657,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.3835
+        }
       },
-      "score": 21,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 34,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "PWR": {
       "factors": {
@@ -2523,16 +3870,43 @@
       "updated_at": "2026-08-11T15:00:00-04:00"
     },
     "SLB": {
-      "factors": {
-        "clean_structure": 0,
-        "momentum": 6,
-        "price_structure": 0,
-        "relative_volume": 15,
-        "vwap": 0
+      "alpha_score": 15.268,
+      "composite_z": -1.025,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 0.771233,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.4352
+        },
+        "volatility": {
+          "raw": 0.539277,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.7748
+        },
+        "volume": {
+          "raw": 0.143799,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.7851
+        }
       },
-      "score": 21,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 15,
       "tier": null,
-      "updated_at": "2026-08-07T15:30:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "SOLV": {
       "factors": {
@@ -2557,6 +3931,45 @@
       "score": 31,
       "tier": null,
       "updated_at": "2026-08-11T15:00:00-04:00"
+    },
+    "STT": {
+      "alpha_score": 40.54,
+      "composite_z": -0.2394,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 3.035403,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.9853
+        },
+        "volatility": {
+          "raw": 1.725643,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 0.0448
+        },
+        "volume": {
+          "raw": 1.237853,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.4531
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 41,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "TAP": {
       "factors": {
@@ -2612,16 +4025,43 @@
       "updated_at": "2026-08-11T15:00:00-04:00"
     },
     "TSCO": {
-      "factors": {
-        "clean_structure": 10,
-        "momentum": 4,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 0
+      "alpha_score": 62.827,
+      "composite_z": 0.3273,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 13.662119,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.1265
+        },
+        "volatility": {
+          "raw": 1.252272,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.2822
+        },
+        "volume": {
+          "raw": 0.875256,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 0.0427
+        }
       },
-      "score": 14,
-      "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 63,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "V": {
       "score": 0,
@@ -2629,16 +4069,82 @@
       "updated_at": "2026-08-07T15:30:00-04:00"
     },
     "VEEV": {
-      "factors": {
-        "clean_structure": 20,
-        "momentum": 14,
-        "price_structure": 0,
-        "relative_volume": 0,
-        "vwap": 18
+      "alpha_score": 93.06,
+      "composite_z": 1.4803,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 14.585515,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.31
+        },
+        "volatility": {
+          "raw": 3.749357,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": 1.443
+        },
+        "volume": {
+          "raw": 2.420587,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": 1.7917
+        }
       },
-      "score": 52,
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 93,
+      "tier": "B",
+      "updated_at": "2026-08-13T10:00:00-04:00"
+    },
+    "VLO": {
+      "alpha_score": 14.272,
+      "composite_z": -1.0682,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 3.760954,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.8411
+        },
+        "volatility": {
+          "raw": 0.107068,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.0734
+        },
+        "volume": {
+          "raw": -0.40038,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -1.401
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 14,
       "tier": null,
-      "updated_at": "2026-08-11T15:00:00-04:00"
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "VLTO": {
       "factors": {
@@ -2651,6 +4157,45 @@
       "score": 0,
       "tier": null,
       "updated_at": "2026-08-10T14:45:00-04:00"
+    },
+    "VRTX": {
+      "alpha_score": 23.095,
+      "composite_z": -0.7357,
+      "factor_breakdown": {
+        "gamma": {
+          "raw": null,
+          "status": "UNAVAILABLE",
+          "weight": 0.2,
+          "z": null
+        },
+        "relative_strength": {
+          "raw": 4.896019,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -0.6155
+        },
+        "volatility": {
+          "raw": 0.0,
+          "status": "CONFIRMED",
+          "weight": 0.3,
+          "z": -1.1474
+        },
+        "volume": {
+          "raw": 0.573759,
+          "status": "CONFIRMED",
+          "weight": 0.2,
+          "z": -0.2985
+        }
+      },
+      "gates": {
+        "gamma_positive_when_available": true,
+        "relative_strength": false,
+        "volatility_transition": false,
+        "volume_absorption": false
+      },
+      "score": 23,
+      "tier": null,
+      "updated_at": "2026-08-13T10:00:00-04:00"
     },
     "VTRS": {
       "score": 0,
