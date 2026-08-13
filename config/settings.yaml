@@ -139,7 +139,7 @@ paper_trading:
 
 alerts:
   username: Free Swing Paper Bot
-  send_b_setups: true
+  send_b_setups: false
   send_a_setups: true
   send_daily_open_position_summary: true
   mention_everyone: false
