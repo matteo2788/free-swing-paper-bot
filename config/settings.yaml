@@ -2,7 +2,7 @@ system:
   timezone: America/New_York
   market_calendar: NYSE
   trigger_interval: 15m
-  data_period_intraday: 60d
+  data_period_intraday: 1mo
   data_period_daily: 1y
   scan_only_closed_candles: true
   request_batch_size: 60

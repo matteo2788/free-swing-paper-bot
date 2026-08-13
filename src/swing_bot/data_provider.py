@@ -24,6 +24,28 @@ class YahooDataProvider:
         for index in range(0, len(values), size):
             yield values[index : index + size]
 
+    @staticmethod
+    def _download_raw(yf: Any, batch: list[str], period: str, interval: str) -> pd.DataFrame | None:
+        """Download one batch without yfinance worker threads.
+
+        yfinance's shared timezone/cache database can raise ``database is locked``
+        when many ticker workers initialize concurrently. The bot values complete,
+        deterministic research data more than a small download-speed gain, so batch
+        requests are intentionally serialized inside yfinance.
+        """
+        return yf.download(
+            tickers=" ".join(batch),
+            period=period,
+            interval=interval,
+            group_by="ticker",
+            auto_adjust=False,
+            prepost=False,
+            threads=False,
+            progress=False,
+            actions=False,
+            timeout=20,
+        )
+
     def download(
         self,
         tickers: list[str],
@@ -40,18 +62,7 @@ class YahooDataProvider:
             result: pd.DataFrame | None = None
             for attempt in range(retries + 1):
                 try:
-                    result = yf.download(
-                        tickers=" ".join(batch),
-                        period=period,
-                        interval=interval,
-                        group_by="ticker",
-                        auto_adjust=False,
-                        prepost=False,
-                        threads=True,
-                        progress=False,
-                        actions=False,
-                        timeout=20,
-                    )
+                    result = self._download_raw(yf, batch, period, interval)
                     if result is not None and not result.empty:
                         break
                 except Exception as exc:  # yfinance can raise several network/parser exceptions
@@ -65,9 +76,37 @@ class YahooDataProvider:
 
             if result is None or result.empty:
                 LOGGER.warning("No data returned for batch: %s", ",".join(batch))
-                continue
+                batch_frames: dict[str, pd.DataFrame] = {}
+            else:
+                batch_frames = self._split_download(result, batch)
+                frames.update(batch_frames)
 
-            frames.update(self._split_download(result, batch))
+            # yf.download can return a non-empty batch even when one or more ticker
+            # requests failed. Retry any missing names one at a time so a partial
+            # response cannot silently remove the entire ticker from the alpha scan.
+            missing = [ticker for ticker in batch if ticker not in batch_frames]
+            for ticker in missing:
+                recovered = False
+                for attempt in range(retries + 1):
+                    try:
+                        single = self._download_raw(yf, [ticker], period, interval)
+                        if single is not None and not single.empty:
+                            split = self._split_download(single, [ticker])
+                            if ticker in split:
+                                frames[ticker] = split[ticker]
+                                recovered = True
+                                break
+                    except Exception as exc:
+                        LOGGER.warning(
+                            "Single-ticker retry %s failed for %s: %s",
+                            attempt + 1,
+                            ticker,
+                            exc,
+                        )
+                    time.sleep(1.5 * (attempt + 1))
+                if not recovered:
+                    LOGGER.warning("No usable data returned for ticker: %s", ticker)
+
             if self.pause_seconds:
                 time.sleep(self.pause_seconds)
         return frames
