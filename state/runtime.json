@@ -1677,26 +1677,28 @@
     }
   },
   "last_daily_refresh": "2026-09-03",
-  "last_paper_monitor_at": "2026-09-04T12:41:23.576737-04:00",
+  "last_paper_monitor_at": "2026-09-04T15:08:03.958782-04:00",
   "last_scan_bar": "2026-09-04T12:15:00-04:00",
   "last_summary_date": "2026-09-03",
   "market_regime": {
-    "allow_new_longs": true,
-    "checked_at": "2026-09-04T12:41:23.576737-04:00",
+    "allow_new_longs": false,
+    "checked_at": "2026-09-04T15:08:03.958782-04:00",
     "metrics": {
-      "qqq_close": 718.86,
-      "qqq_ema20": 714.238212,
-      "qqq_ema20_slope_percent": 0.009638,
+      "qqq_close": 717.51,
+      "qqq_ema20": 714.109643,
+      "qqq_ema20_slope_percent": -0.008364,
       "spy_atr_expansion_ratio": 0.876968,
-      "spy_close": 770.82,
-      "spy_downside_return_percent": 1.1867,
-      "spy_ema20": 766.306881,
-      "spy_ema20_slope_percent": 0.14224,
-      "vix_close": 14.04,
-      "vix_expansion_ratio": 0.928694,
+      "spy_close": 769.675,
+      "spy_downside_return_percent": 1.0364,
+      "spy_ema20": 766.197831,
+      "spy_ema20_slope_percent": 0.127989,
+      "vix_close": 14.0,
+      "vix_expansion_ratio": 0.926048,
       "volatility_expanding_down": false
     },
-    "reasons": []
+    "reasons": [
+      "qqq_20ema_slope_nonpositive"
+    ]
   },
   "paper_account_model_version": 2,
   "paper_account_reset_at": "2026-08-12T14:17:29+00:00",
