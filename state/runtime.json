@@ -1,10 +1,10 @@
 {
   "daily_pool": {
     "A": {
-      "adx": 29.346723,
-      "atr_percent": 2.63613,
-      "avg_dollar_volume_20d": 373172489.0,
-      "avg_volume_20d": 2436443.0,
+      "adx": 29.571012,
+      "atr_percent": 2.708105,
+      "avg_dollar_volume_20d": 388979299.0,
+      "avg_volume_20d": 2532234.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -15,21 +15,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 165.809998,
-      "ema_fast": 152.982108,
-      "ema_slow": 147.035161,
-      "relative_20d_percent": 10.747704,
-      "relative_5d_percent": 8.93377,
-      "relative_strength_percent": 11.918912,
+      "close": 165.320007,
+      "ema_fast": 152.935442,
+      "ema_slow": 147.015858,
+      "relative_20d_percent": 11.126687,
+      "relative_5d_percent": 9.33536,
+      "relative_strength_percent": 11.867863,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "A"
     },
     "AKAM": {
-      "adx": 27.932466,
-      "atr_percent": 4.649356,
-      "avg_dollar_volume_20d": 346995945.0,
-      "avg_volume_20d": 3211233.0,
+      "adx": 27.397105,
+      "atr_percent": 4.592559,
+      "avg_dollar_volume_20d": 354678050.0,
+      "avg_volume_20d": 3275751.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -40,21 +40,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 118.129997,
-      "ema_fast": 109.759484,
-      "ema_slow": 113.233272,
-      "relative_20d_percent": 3.151627,
-      "relative_5d_percent": 5.609419,
-      "relative_strength_percent": 10.862719,
+      "close": 118.440002,
+      "ema_fast": 109.789009,
+      "ema_slow": 113.245411,
+      "relative_20d_percent": 3.603317,
+      "relative_5d_percent": 6.058654,
+      "relative_strength_percent": 11.438875,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "AKAM"
     },
-    "AMGN": {
-      "adx": 33.688561,
-      "atr_percent": 2.664593,
-      "avg_dollar_volume_20d": 1173529494.0,
-      "avg_volume_20d": 2914020.0,
+    "AMD": {
+      "adx": 21.973459,
+      "atr_percent": 4.086429,
+      "avg_dollar_volume_20d": 11057850665.0,
+      "avg_volume_20d": 21010514.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -65,21 +65,46 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 408.200012,
-      "ema_fast": 400.820876,
-      "ema_slow": 397.650945,
-      "relative_20d_percent": -5.351043,
-      "relative_5d_percent": 7.257375,
-      "relative_strength_percent": 2.830558,
+      "close": 614.609985,
+      "ema_fast": 532.5121,
+      "ema_slow": 505.935427,
+      "relative_20d_percent": 19.770783,
+      "relative_5d_percent": 13.610636,
+      "relative_strength_percent": 17.235137,
+      "sector": "Information Technology",
+      "sector_etf": "XLK",
+      "ticker": "AMD"
+    },
+    "AMGN": {
+      "adx": 33.876096,
+      "atr_percent": 2.727073,
+      "avg_dollar_volume_20d": 1186873792.0,
+      "avg_volume_20d": 2947425.0,
+      "checks": {
+        "above_daily_ema_20": true,
+        "above_daily_ema_50": true,
+        "atr_percent": true,
+        "average_dollar_volume": true,
+        "average_volume": true,
+        "daily_adx": true,
+        "minimum_price": true,
+        "positive_relative_strength": true
+      },
+      "close": 406.089996,
+      "ema_fast": 400.619923,
+      "ema_slow": 397.56789,
+      "relative_20d_percent": -5.128103,
+      "relative_5d_percent": 7.423341,
+      "relative_strength_percent": 2.576508,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "AMGN"
     },
-    "ARE": {
-      "adx": 20.206789,
-      "atr_percent": 3.515966,
-      "avg_dollar_volume_20d": 96599103.0,
-      "avg_volume_20d": 1833863.0,
+    "BDX": {
+      "adx": 29.524225,
+      "atr_percent": 2.22382,
+      "avg_dollar_volume_20d": 335063677.0,
+      "avg_volume_20d": 1824843.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -90,21 +115,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 54.080002,
-      "ema_fast": 52.452813,
-      "ema_slow": 51.454975,
-      "relative_20d_percent": 6.228887,
-      "relative_5d_percent": 3.403236,
-      "relative_strength_percent": 5.527385,
-      "sector": "Real Estate",
-      "sector_etf": "XLRE",
-      "ticker": "ARE"
+      "close": 182.520004,
+      "ema_fast": 182.116622,
+      "ema_slow": 176.268229,
+      "relative_20d_percent": -0.932317,
+      "relative_5d_percent": -2.508687,
+      "relative_strength_percent": 1.199949,
+      "sector": "Health Care",
+      "sector_etf": "XLV",
+      "ticker": "BDX"
     },
     "COIN": {
-      "adx": 26.544637,
-      "atr_percent": 6.091456,
-      "avg_dollar_volume_20d": 1870624520.0,
-      "avg_volume_20d": 10186226.0,
+      "adx": 26.864435,
+      "atr_percent": 6.03315,
+      "avg_dollar_volume_20d": 1870300803.0,
+      "avg_volume_20d": 10152139.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -115,21 +140,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 200.139999,
-      "ema_fast": 180.892024,
-      "ema_slow": 173.709426,
-      "relative_20d_percent": 17.196368,
-      "relative_5d_percent": 19.698582,
-      "relative_strength_percent": 10.855329,
+      "close": 198.130005,
+      "ema_fast": 182.613873,
+      "ema_slow": 174.701714,
+      "relative_20d_percent": 12.32674,
+      "relative_5d_percent": 22.921703,
+      "relative_strength_percent": 12.688985,
       "sector": "Financials",
       "sector_etf": "XLF",
       "ticker": "COIN"
     },
     "CRWD": {
-      "adx": 22.432012,
-      "atr_percent": 5.110397,
-      "avg_dollar_volume_20d": 2885943872.0,
-      "avg_volume_20d": 12853281.0,
+      "adx": 23.196795,
+      "atr_percent": 5.113166,
+      "avg_dollar_volume_20d": 2995369156.0,
+      "avg_volume_20d": 13257655.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -140,46 +165,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 249.339996,
-      "ema_fast": 226.19512,
-      "ema_slow": 210.025085,
-      "relative_20d_percent": 22.113213,
-      "relative_5d_percent": -3.643521,
-      "relative_strength_percent": 17.729807,
+      "close": 262.48999,
+      "ema_fast": 227.4475,
+      "ema_slow": 210.540584,
+      "relative_20d_percent": 29.167872,
+      "relative_5d_percent": 1.934493,
+      "relative_strength_percent": 24.27373,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "CRWD"
     },
-    "DAL": {
-      "adx": 24.299928,
-      "atr_percent": 2.787327,
-      "avg_dollar_volume_20d": 517195381.0,
-      "avg_volume_20d": 6484449.0,
-      "checks": {
-        "above_daily_ema_20": true,
-        "above_daily_ema_50": true,
-        "atr_percent": true,
-        "average_dollar_volume": true,
-        "average_volume": true,
-        "daily_adx": true,
-        "minimum_price": true,
-        "positive_relative_strength": true
-      },
-      "close": 82.779999,
-      "ema_fast": 80.845865,
-      "ema_slow": 82.39934,
-      "relative_20d_percent": 5.520141,
-      "relative_5d_percent": 4.386055,
-      "relative_strength_percent": 3.845677,
-      "sector": "Industrials",
-      "sector_etf": "XLI",
-      "ticker": "DAL"
-    },
     "DE": {
-      "adx": 22.610466,
-      "atr_percent": 2.390271,
-      "avg_dollar_volume_20d": 844727030.0,
-      "avg_volume_20d": 1252369.0,
+      "adx": 23.62867,
+      "atr_percent": 2.579731,
+      "avg_dollar_volume_20d": 887142693.0,
+      "avg_volume_20d": 1311733.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -190,21 +190,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 695.549988,
-      "ema_fast": 670.281694,
-      "ema_slow": 643.431219,
-      "relative_20d_percent": 12.388473,
-      "relative_5d_percent": 1.13779,
-      "relative_strength_percent": 1.18486,
+      "close": 709.47998,
+      "ema_fast": 671.60836,
+      "ema_slow": 643.977484,
+      "relative_20d_percent": 14.351683,
+      "relative_5d_percent": 2.978779,
+      "relative_strength_percent": 3.51381,
       "sector": "Industrials",
       "sector_etf": "XLI",
       "ticker": "DE"
     },
     "DELL": {
-      "adx": 21.98302,
-      "atr_percent": 5.819505,
-      "avg_dollar_volume_20d": 5418261353.0,
-      "avg_volume_20d": 10466993.0,
+      "adx": 22.097769,
+      "atr_percent": 5.823176,
+      "avg_dollar_volume_20d": 5677053283.0,
+      "avg_volume_20d": 10906035.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -215,21 +215,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 554.840027,
-      "ema_fast": 526.096632,
-      "ema_slow": 476.75156,
-      "relative_20d_percent": 19.431998,
-      "relative_5d_percent": -4.383775,
-      "relative_strength_percent": 2.933764,
+      "close": 549.830017,
+      "ema_fast": 527.846837,
+      "ema_slow": 479.394173,
+      "relative_20d_percent": 13.286438,
+      "relative_5d_percent": -8.70279,
+      "relative_strength_percent": 2.014366,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "DELL"
     },
     "DXCM": {
-      "adx": 20.975093,
-      "atr_percent": 2.690351,
-      "avg_dollar_volume_20d": 348171705.0,
-      "avg_volume_20d": 3968779.0,
+      "adx": 20.260347,
+      "atr_percent": 2.821381,
+      "avg_dollar_volume_20d": 349430572.0,
+      "avg_volume_20d": 3987300.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -240,21 +240,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 89.985001,
-      "ema_fast": 87.514704,
-      "ema_slow": 84.311452,
-      "relative_20d_percent": 1.498337,
-      "relative_5d_percent": 2.681462,
-      "relative_strength_percent": 5.461117,
+      "close": 87.730003,
+      "ema_fast": 87.299942,
+      "ema_slow": 84.222932,
+      "relative_20d_percent": -0.279709,
+      "relative_5d_percent": 0.800685,
+      "relative_strength_percent": 3.076046,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "DXCM"
     },
-    "FTNT": {
-      "adx": 24.04473,
-      "atr_percent": 4.063457,
-      "avg_dollar_volume_20d": 758850502.0,
-      "avg_volume_20d": 4580240.0,
+    "EMR": {
+      "adx": 21.217929,
+      "atr_percent": 2.44132,
+      "avg_dollar_volume_20d": 345734949.0,
+      "avg_volume_20d": 2287887.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -265,21 +265,46 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 174.712006,
-      "ema_fast": 165.654324,
-      "ema_slow": 159.196363,
-      "relative_20d_percent": 6.299294,
-      "relative_5d_percent": -5.109665,
-      "relative_strength_percent": 9.957174,
+      "close": 154.589996,
+      "ema_fast": 151.317007,
+      "ema_slow": 150.64863,
+      "relative_20d_percent": 3.080834,
+      "relative_5d_percent": 4.422961,
+      "relative_strength_percent": 0.894085,
+      "sector": "Industrials",
+      "sector_etf": "XLI",
+      "ticker": "EMR"
+    },
+    "FTNT": {
+      "adx": 24.406749,
+      "atr_percent": 3.97728,
+      "avg_dollar_volume_20d": 772901734.0,
+      "avg_volume_20d": 4656776.0,
+      "checks": {
+        "above_daily_ema_20": true,
+        "above_daily_ema_50": true,
+        "atr_percent": true,
+        "average_dollar_volume": true,
+        "average_volume": true,
+        "daily_adx": true,
+        "minimum_price": true,
+        "positive_relative_strength": true
+      },
+      "close": 178.740005,
+      "ema_fast": 166.037943,
+      "ema_slow": 159.354259,
+      "relative_20d_percent": 9.10776,
+      "relative_5d_percent": -2.617719,
+      "relative_strength_percent": 12.79774,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "FTNT"
     },
     "GILD": {
-      "adx": 30.351826,
-      "atr_percent": 2.356043,
-      "avg_dollar_volume_20d": 837953448.0,
-      "avg_volume_20d": 5646914.0,
+      "adx": 30.631959,
+      "atr_percent": 2.365449,
+      "avg_dollar_volume_20d": 866537545.0,
+      "avg_volume_20d": 5836370.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -290,46 +315,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 152.490005,
-      "ema_fast": 147.289677,
-      "ema_slow": 142.281258,
-      "relative_20d_percent": 6.597369,
-      "relative_5d_percent": 2.823423,
-      "relative_strength_percent": 2.99715,
+      "close": 151.369995,
+      "ema_fast": 147.183009,
+      "ema_slow": 142.237386,
+      "relative_20d_percent": 6.532448,
+      "relative_5d_percent": 2.785529,
+      "relative_strength_percent": 2.515986,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "GILD"
     },
-    "GNRC": {
-      "adx": 29.195591,
-      "atr_percent": 5.455634,
-      "avg_dollar_volume_20d": 290941776.0,
-      "avg_volume_20d": 1489400.0,
-      "checks": {
-        "above_daily_ema_20": true,
-        "above_daily_ema_50": true,
-        "atr_percent": true,
-        "average_dollar_volume": true,
-        "average_volume": true,
-        "daily_adx": true,
-        "minimum_price": true,
-        "positive_relative_strength": true
-      },
-      "close": 207.050003,
-      "ema_fast": 195.049955,
-      "ema_slow": 205.713442,
-      "relative_20d_percent": 6.870907,
-      "relative_5d_percent": 17.749148,
-      "relative_strength_percent": 7.861155,
-      "sector": "Industrials",
-      "sector_etf": "XLI",
-      "ticker": "GNRC"
-    },
     "HCA": {
-      "adx": 20.520678,
-      "atr_percent": 2.871643,
-      "avg_dollar_volume_20d": 623208850.0,
-      "avg_volume_20d": 1481413.0,
+      "adx": 21.133032,
+      "atr_percent": 3.020716,
+      "avg_dollar_volume_20d": 640421721.0,
+      "avg_volume_20d": 1520889.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -340,21 +340,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 437.200012,
-      "ema_fast": 421.580872,
-      "ema_slow": 414.234269,
-      "relative_20d_percent": 4.533319,
-      "relative_5d_percent": 1.749391,
-      "relative_strength_percent": 7.758599,
+      "close": 436.480011,
+      "ema_fast": 421.5123,
+      "ema_slow": 414.206455,
+      "relative_20d_percent": 5.063922,
+      "relative_5d_percent": 2.307171,
+      "relative_strength_percent": 7.862121,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "HCA"
     },
     "ILMN": {
-      "adx": 28.759664,
-      "atr_percent": 4.26326,
-      "avg_dollar_volume_20d": 829187934.0,
-      "avg_volume_20d": 3608165.0,
+      "adx": 29.775091,
+      "atr_percent": 4.241511,
+      "avg_dollar_volume_20d": 847958624.0,
+      "avg_volume_20d": 3680374.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -365,21 +365,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 246.990005,
-      "ema_fast": 222.1365,
-      "ema_slow": 207.051858,
-      "relative_20d_percent": 13.327563,
-      "relative_5d_percent": 9.704006,
-      "relative_strength_percent": 16.031383,
+      "close": 255.380005,
+      "ema_fast": 222.935548,
+      "ema_slow": 207.38056,
+      "relative_20d_percent": 17.784527,
+      "relative_5d_percent": 14.206018,
+      "relative_strength_percent": 20.289174,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "ILMN"
     },
-    "IQV": {
-      "adx": 33.415876,
-      "atr_percent": 2.492361,
-      "avg_dollar_volume_20d": 413419245.0,
-      "avg_volume_20d": 1561525.0,
+    "INTC": {
+      "adx": 21.255368,
+      "atr_percent": 5.12245,
+      "avg_dollar_volume_20d": 10702335838.0,
+      "avg_volume_20d": 103606496.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -390,21 +390,46 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 270.769989,
-      "ema_fast": 262.335891,
-      "ema_slow": 245.023697,
-      "relative_20d_percent": 6.725139,
-      "relative_5d_percent": -0.999714,
-      "relative_strength_percent": 3.467488,
+      "close": 122.599998,
+      "ema_fast": 105.32667,
+      "ema_slow": 101.906266,
+      "relative_20d_percent": 31.65423,
+      "relative_5d_percent": 15.012807,
+      "relative_strength_percent": 14.6895,
+      "sector": "Information Technology",
+      "sector_etf": "XLK",
+      "ticker": "INTC"
+    },
+    "IQV": {
+      "adx": 33.959637,
+      "atr_percent": 2.64757,
+      "avg_dollar_volume_20d": 424785959.0,
+      "avg_volume_20d": 1604098.0,
+      "checks": {
+        "above_daily_ema_20": true,
+        "above_daily_ema_50": true,
+        "atr_percent": true,
+        "average_dollar_volume": true,
+        "average_volume": true,
+        "daily_adx": true,
+        "minimum_price": true,
+        "positive_relative_strength": true
+      },
+      "close": 267.859985,
+      "ema_fast": 262.058748,
+      "ema_slow": 244.909283,
+      "relative_20d_percent": 6.305279,
+      "relative_5d_percent": -1.351148,
+      "relative_strength_percent": 2.627463,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "IQV"
     },
-    "META": {
-      "adx": 32.249786,
-      "atr_percent": 3.505446,
-      "avg_dollar_volume_20d": 13375460423.0,
-      "avg_volume_20d": 20752601.0,
+    "MAR": {
+      "adx": 23.61191,
+      "atr_percent": 2.191809,
+      "avg_dollar_volume_20d": 558949931.0,
+      "avg_volume_20d": 1643320.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -415,21 +440,46 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 743.0,
-      "ema_fast": 650.13904,
-      "ema_slow": 620.805932,
-      "relative_20d_percent": 31.517819,
-      "relative_5d_percent": 10.982971,
-      "relative_strength_percent": 20.120131,
+      "close": 351.660004,
+      "ema_fast": 342.099834,
+      "ema_slow": 350.843393,
+      "relative_20d_percent": 4.095704,
+      "relative_5d_percent": 4.483318,
+      "relative_strength_percent": 6.246208,
+      "sector": "Consumer Discretionary",
+      "sector_etf": "XLY",
+      "ticker": "MAR"
+    },
+    "META": {
+      "adx": 34.756762,
+      "atr_percent": 3.512307,
+      "avg_dollar_volume_20d": 14521510275.0,
+      "avg_volume_20d": 22191272.0,
+      "checks": {
+        "above_daily_ema_20": true,
+        "above_daily_ema_50": true,
+        "atr_percent": true,
+        "average_dollar_volume": true,
+        "average_volume": true,
+        "daily_adx": true,
+        "minimum_price": true,
+        "positive_relative_strength": true
+      },
+      "close": 744.099976,
+      "ema_fast": 658.536225,
+      "ema_slow": 625.399675,
+      "relative_20d_percent": 30.318735,
+      "relative_5d_percent": 11.802863,
+      "relative_strength_percent": 13.121113,
       "sector": "Communication Services",
       "sector_etf": "XLC",
       "ticker": "META"
     },
-    "MPC": {
-      "adx": 44.630061,
-      "atr_percent": 3.547144,
-      "avg_dollar_volume_20d": 1166948547.0,
-      "avg_volume_20d": 2944889.0,
+    "MMM": {
+      "adx": 32.691297,
+      "atr_percent": 2.112533,
+      "avg_dollar_volume_20d": 476134434.0,
+      "avg_volume_20d": 2829368.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -440,46 +490,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 401.940002,
-      "ema_fast": 391.713738,
-      "ema_slow": 356.461334,
-      "relative_20d_percent": 11.903837,
-      "relative_5d_percent": 3.096868,
-      "relative_strength_percent": 0.056132,
-      "sector": "Energy",
-      "sector_etf": "XLE",
-      "ticker": "MPC"
-    },
-    "MRK": {
-      "adx": 28.487514,
-      "atr_percent": 2.36018,
-      "avg_dollar_volume_20d": 1436634730.0,
-      "avg_volume_20d": 9670391.0,
-      "checks": {
-        "above_daily_ema_20": true,
-        "above_daily_ema_50": true,
-        "atr_percent": true,
-        "average_dollar_volume": true,
-        "average_volume": true,
-        "daily_adx": true,
-        "minimum_price": true,
-        "positive_relative_strength": true
-      },
-      "close": 151.657501,
-      "ema_fast": 146.558377,
-      "ema_slow": 140.28202,
-      "relative_20d_percent": 3.340959,
-      "relative_5d_percent": 4.063916,
-      "relative_strength_percent": 1.161559,
-      "sector": "Health Care",
-      "sector_etf": "XLV",
-      "ticker": "MRK"
+      "close": 170.300003,
+      "ema_fast": 168.427791,
+      "ema_slow": 169.31989,
+      "relative_20d_percent": 0.106418,
+      "relative_5d_percent": 2.67866,
+      "relative_strength_percent": 0.949905,
+      "sector": "Industrials",
+      "sector_etf": "XLI",
+      "ticker": "MMM"
     },
     "MRNA": {
-      "adx": 56.344168,
-      "atr_percent": 7.131457,
-      "avg_dollar_volume_20d": 2725845155.0,
-      "avg_volume_20d": 17991323.0,
+      "adx": 57.592593,
+      "atr_percent": 7.068091,
+      "avg_dollar_volume_20d": 2552640026.0,
+      "avg_volume_20d": 16724628.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -490,21 +515,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 182.5,
-      "ema_fast": 144.674115,
-      "ema_slow": 115.641222,
-      "relative_20d_percent": 34.077823,
-      "relative_5d_percent": 25.531246,
-      "relative_strength_percent": 29.058378,
+      "close": 182.110001,
+      "ema_fast": 148.244608,
+      "ema_slow": 118.250073,
+      "relative_20d_percent": 18.034394,
+      "relative_5d_percent": 24.378429,
+      "relative_strength_percent": 33.579909,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "MRNA"
     },
-    "NOW": {
-      "adx": 23.927754,
-      "atr_percent": 4.589072,
-      "avg_dollar_volume_20d": 2151112648.0,
-      "avg_volume_20d": 15508702.0,
+    "MSFT": {
+      "adx": 31.671398,
+      "atr_percent": 2.218006,
+      "avg_dollar_volume_20d": 10767605539.0,
+      "avg_volume_20d": 21524554.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -515,21 +540,46 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 136.100006,
-      "ema_fast": 135.330204,
-      "ema_slow": 126.826609,
-      "relative_20d_percent": -2.363764,
-      "relative_5d_percent": -10.555753,
-      "relative_strength_percent": 0.416025,
+      "close": 500.589996,
+      "ema_fast": 495.038165,
+      "ema_slow": 474.37691,
+      "relative_20d_percent": -6.686138,
+      "relative_5d_percent": -4.214547,
+      "relative_strength_percent": 1.10877,
+      "sector": "Information Technology",
+      "sector_etf": "XLK",
+      "ticker": "MSFT"
+    },
+    "NOW": {
+      "adx": 24.043252,
+      "atr_percent": 4.394041,
+      "avg_dollar_volume_20d": 2183727154.0,
+      "avg_volume_20d": 15684583.0,
+      "checks": {
+        "above_daily_ema_20": true,
+        "above_daily_ema_50": true,
+        "atr_percent": true,
+        "average_dollar_volume": true,
+        "average_volume": true,
+        "daily_adx": true,
+        "minimum_price": true,
+        "positive_relative_strength": true
+      },
+      "close": 140.779999,
+      "ema_fast": 135.926783,
+      "ema_slow": 127.407592,
+      "relative_20d_percent": 2.358311,
+      "relative_5d_percent": -5.626673,
+      "relative_strength_percent": 6.665887,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "NOW"
     },
-    "PLTR": {
-      "adx": 21.801493,
-      "atr_percent": 3.676006,
-      "avg_dollar_volume_20d": 4720367023.0,
-      "avg_volume_20d": 26703331.0,
+    "PFE": {
+      "adx": 30.707488,
+      "atr_percent": 1.770195,
+      "avg_dollar_volume_20d": 953014859.0,
+      "avg_volume_20d": 33970611.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -540,21 +590,46 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 184.787704,
-      "ema_fast": 174.711167,
-      "ema_slow": 164.144916,
-      "relative_20d_percent": -3.591697,
-      "relative_5d_percent": 0.617685,
-      "relative_strength_percent": 7.514949,
+      "close": 28.18,
+      "ema_fast": 27.747139,
+      "ema_slow": 27.088278,
+      "relative_20d_percent": 4.128023,
+      "relative_5d_percent": 1.606808,
+      "relative_strength_percent": 0.693783,
+      "sector": "Health Care",
+      "sector_etf": "XLV",
+      "ticker": "PFE"
+    },
+    "PLTR": {
+      "adx": 23.087411,
+      "atr_percent": 3.692524,
+      "avg_dollar_volume_20d": 4940026362.0,
+      "avg_volume_20d": 27745190.0,
+      "checks": {
+        "above_daily_ema_20": true,
+        "above_daily_ema_50": true,
+        "atr_percent": true,
+        "average_dollar_volume": true,
+        "average_volume": true,
+        "daily_adx": true,
+        "minimum_price": true,
+        "positive_relative_strength": true
+      },
+      "close": 191.789993,
+      "ema_fast": 176.355154,
+      "ema_slow": 165.236664,
+      "relative_20d_percent": 2.54248,
+      "relative_5d_percent": 3.695912,
+      "relative_strength_percent": 12.420819,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "PLTR"
     },
-    "PSX": {
-      "adx": 40.509294,
-      "atr_percent": 3.211391,
-      "avg_dollar_volume_20d": 807288383.0,
-      "avg_volume_20d": 3120775.0,
+    "PTC": {
+      "adx": 24.305592,
+      "atr_percent": 3.641378,
+      "avg_dollar_volume_20d": 239907116.0,
+      "avg_volume_20d": 1717802.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -565,21 +640,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 262.640015,
-      "ema_fast": 255.96917,
-      "ema_slow": 235.502125,
-      "relative_20d_percent": 9.57682,
-      "relative_5d_percent": 4.398789,
-      "relative_strength_percent": 0.358406,
-      "sector": "Energy",
-      "sector_etf": "XLE",
-      "ticker": "PSX"
+      "close": 140.399994,
+      "ema_fast": 139.07083,
+      "ema_slow": 139.084438,
+      "relative_20d_percent": -17.506406,
+      "relative_5d_percent": -0.550556,
+      "relative_strength_percent": 4.648349,
+      "sector": "Information Technology",
+      "sector_etf": "XLK",
+      "ticker": "PTC"
     },
     "QCOM": {
-      "adx": 21.440037,
-      "atr_percent": 4.445752,
-      "avg_dollar_volume_20d": 2516316832.0,
-      "avg_volume_20d": 14253947.0,
+      "adx": 21.536879,
+      "atr_percent": 4.389631,
+      "avg_dollar_volume_20d": 2584718422.0,
+      "avg_volume_20d": 14489828.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -590,21 +665,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 195.875,
-      "ema_fast": 178.766606,
-      "ema_slow": 175.512276,
-      "relative_20d_percent": 14.906683,
-      "relative_5d_percent": -2.168591,
-      "relative_strength_percent": 11.521429,
+      "close": 197.240005,
+      "ema_fast": 180.73235,
+      "ema_slow": 176.45475,
+      "relative_20d_percent": 14.352966,
+      "relative_5d_percent": 0.395246,
+      "relative_strength_percent": 11.104468,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "QCOM"
     },
     "RVTY": {
-      "adx": 33.506052,
-      "atr_percent": 3.049931,
-      "avg_dollar_volume_20d": 263069273.0,
-      "avg_volume_20d": 1961564.0,
+      "adx": 32.858505,
+      "atr_percent": 3.207171,
+      "avg_dollar_volume_20d": 273647524.0,
+      "avg_volume_20d": 2036393.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -615,21 +690,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 143.604996,
-      "ema_fast": 133.24156,
-      "ema_slow": 123.844126,
-      "relative_20d_percent": 19.430903,
-      "relative_5d_percent": 1.028364,
-      "relative_strength_percent": 12.011399,
+      "close": 142.110001,
+      "ema_fast": 133.09918,
+      "ema_slow": 123.785419,
+      "relative_20d_percent": 18.913801,
+      "relative_5d_percent": 0.689621,
+      "relative_strength_percent": 11.117597,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "RVTY"
     },
     "SMCI": {
-      "adx": 24.963921,
-      "atr_percent": 5.734303,
-      "avg_dollar_volume_20d": 1435846139.0,
-      "avg_volume_20d": 37197556.0,
+      "adx": 25.912693,
+      "atr_percent": 5.625687,
+      "avg_dollar_volume_20d": 1456520391.0,
+      "avg_volume_20d": 37507203.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -640,21 +715,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 40.810101,
-      "ema_fast": 38.145676,
-      "ema_slow": 35.724079,
-      "relative_20d_percent": 7.386314,
-      "relative_5d_percent": 8.038081,
-      "relative_strength_percent": 0.374159,
+      "close": 41.439999,
+      "ema_fast": 38.522315,
+      "ema_slow": 35.975705,
+      "relative_20d_percent": -0.743773,
+      "relative_5d_percent": 6.14264,
+      "relative_strength_percent": 5.737868,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "SMCI"
     },
     "SWKS": {
-      "adx": 32.856096,
-      "atr_percent": 5.243395,
-      "avg_dollar_volume_20d": 641503281.0,
-      "avg_volume_20d": 8080089.0,
+      "adx": 32.988992,
+      "atr_percent": 5.237861,
+      "avg_dollar_volume_20d": 654593203.0,
+      "avg_volume_20d": 8220935.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -665,21 +740,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 89.535004,
-      "ema_fast": 80.402002,
-      "ema_slow": 73.681403,
-      "relative_20d_percent": 25.26378,
-      "relative_5d_percent": -6.985039,
-      "relative_strength_percent": 17.785984,
+      "close": 91.449997,
+      "ema_fast": 80.584383,
+      "ema_slow": 73.756399,
+      "relative_20d_percent": 28.286255,
+      "relative_5d_percent": -4.702156,
+      "relative_strength_percent": 20.609055,
       "sector": "Information Technology",
       "sector_etf": "XLK",
       "ticker": "SWKS"
     },
     "TMO": {
-      "adx": 35.59288,
-      "atr_percent": 2.279576,
-      "avg_dollar_volume_20d": 1276101913.0,
-      "avg_volume_20d": 2022392.0,
+      "adx": 35.896715,
+      "atr_percent": 2.308317,
+      "avg_dollar_volume_20d": 1320747014.0,
+      "avg_volume_20d": 2089093.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -690,21 +765,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 659.150024,
-      "ema_fast": 628.388225,
-      "ema_slow": 596.87812,
-      "relative_20d_percent": 7.515537,
-      "relative_5d_percent": 1.361377,
-      "relative_strength_percent": 8.315934,
+      "close": 665.299988,
+      "ema_fast": 628.973936,
+      "ema_slow": 597.118988,
+      "relative_20d_percent": 9.192019,
+      "relative_5d_percent": 3.04789,
+      "relative_strength_percent": 9.618412,
       "sector": "Health Care",
       "sector_etf": "XLV",
       "ticker": "TMO"
     },
     "TSLA": {
-      "adx": 21.55543,
-      "atr_percent": 3.380222,
-      "avg_dollar_volume_20d": 13866724456.0,
-      "avg_volume_20d": 38272923.0,
+      "adx": 22.433688,
+      "atr_percent": 3.312712,
+      "avg_dollar_volume_20d": 14168507377.0,
+      "avg_volume_20d": 38950282.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -715,21 +790,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 378.390015,
-      "ema_fast": 361.745982,
-      "ema_slow": 360.911517,
-      "relative_20d_percent": 13.445195,
-      "relative_5d_percent": 4.768141,
-      "relative_strength_percent": 1.78647,
+      "close": 380.119995,
+      "ema_fast": 363.539832,
+      "ema_slow": 361.684393,
+      "relative_20d_percent": 14.994804,
+      "relative_5d_percent": 6.362479,
+      "relative_strength_percent": 2.637238,
       "sector": "Consumer Discretionary",
       "sector_etf": "XLY",
       "ticker": "TSLA"
     },
-    "UAL": {
-      "adx": 21.95099,
-      "atr_percent": 3.423834,
-      "avg_dollar_volume_20d": 397711146.0,
-      "avg_volume_20d": 3629461.0,
+    "VEEV": {
+      "adx": 42.898234,
+      "atr_percent": 3.337669,
+      "avg_dollar_volume_20d": 528893616.0,
+      "avg_volume_20d": 1958048.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -740,46 +815,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 114.745003,
-      "ema_fast": 111.231309,
-      "ema_slow": 114.149302,
-      "relative_20d_percent": 6.191029,
-      "relative_5d_percent": 6.773699,
-      "relative_strength_percent": 5.017582,
-      "sector": "Industrials",
-      "sector_etf": "XLI",
-      "ticker": "UAL"
-    },
-    "VLO": {
-      "adx": 38.543553,
-      "atr_percent": 3.707444,
-      "avg_dollar_volume_20d": 1278292775.0,
-      "avg_volume_20d": 3326161.0,
-      "checks": {
-        "above_daily_ema_20": true,
-        "above_daily_ema_50": true,
-        "atr_percent": true,
-        "average_dollar_volume": true,
-        "average_volume": true,
-        "daily_adx": true,
-        "minimum_price": true,
-        "positive_relative_strength": true
-      },
-      "close": 391.790009,
-      "ema_fast": 379.920026,
-      "ema_slow": 346.559739,
-      "relative_20d_percent": 14.264057,
-      "relative_5d_percent": 3.940875,
-      "relative_strength_percent": 1.342903,
-      "sector": "Energy",
-      "sector_etf": "XLE",
-      "ticker": "VLO"
+      "close": 270.75,
+      "ema_fast": 261.84154,
+      "ema_slow": 241.157468,
+      "relative_20d_percent": 12.348475,
+      "relative_5d_percent": 0.869076,
+      "relative_strength_percent": 1.52194,
+      "sector": "Health Care",
+      "sector_etf": "XLV",
+      "ticker": "VEEV"
     },
     "WBD": {
-      "adx": 30.176537,
-      "atr_percent": 1.7276,
-      "avg_dollar_volume_20d": 922677785.0,
-      "avg_volume_20d": 31338586.0,
+      "adx": 30.176538,
+      "atr_percent": 1.747543,
+      "avg_dollar_volume_20d": 1006017944.0,
+      "avg_volume_20d": 34051980.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -790,21 +840,21 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 30.805,
-      "ema_fast": 28.565709,
-      "ema_slow": 27.901519,
-      "relative_20d_percent": 5.94115,
-      "relative_5d_percent": 10.027262,
-      "relative_strength_percent": 8.556146,
+      "close": 30.76,
+      "ema_fast": 28.561423,
+      "ema_slow": 27.899764,
+      "relative_20d_percent": 6.964025,
+      "relative_5d_percent": 11.028698,
+      "relative_strength_percent": 8.678736,
       "sector": "Communication Services",
       "sector_etf": "XLC",
       "ticker": "WBD"
     },
-    "WSM": {
-      "adx": 20.589418,
-      "atr_percent": 3.129098,
-      "avg_dollar_volume_20d": 303141093.0,
-      "avg_volume_20d": 1332246.0,
+    "WDAY": {
+      "adx": 29.299189,
+      "atr_percent": 4.408828,
+      "avg_dollar_volume_20d": 709923565.0,
+      "avg_volume_20d": 3635256.0,
       "checks": {
         "above_daily_ema_20": true,
         "above_daily_ema_50": true,
@@ -815,35 +865,35 @@
         "minimum_price": true,
         "positive_relative_strength": true
       },
-      "close": 232.809998,
-      "ema_fast": 227.822928,
-      "ema_slow": 228.264311,
-      "relative_20d_percent": 2.922403,
-      "relative_5d_percent": 3.772024,
-      "relative_strength_percent": 1.193623,
-      "sector": "Consumer Discretionary",
-      "sector_etf": "XLY",
-      "ticker": "WSM"
+      "close": 192.380005,
+      "ema_fast": 191.368445,
+      "ema_slow": 179.288482,
+      "relative_20d_percent": -11.891524,
+      "relative_5d_percent": -5.416423,
+      "relative_strength_percent": 2.565046,
+      "sector": "Information Technology",
+      "sector_etf": "XLK",
+      "ticker": "WDAY"
     }
   },
-  "last_daily_refresh": "2026-09-22",
-  "last_paper_monitor_at": "2026-09-22T13:28:45.893999-04:00",
-  "last_scan_bar": "2026-09-22T13:00:00-04:00",
-  "last_summary_date": "2026-09-22",
+  "last_daily_refresh": "2026-09-23",
+  "last_paper_monitor_at": "2026-09-23T13:38:08.812790-04:00",
+  "last_scan_bar": "2026-09-23T13:15:00-04:00",
+  "last_summary_date": "2026-09-23",
   "market_regime": {
     "allow_new_longs": true,
-    "checked_at": "2026-09-22T13:28:45.893999-04:00",
+    "checked_at": "2026-09-23T13:38:08.812790-04:00",
     "metrics": {
-      "qqq_close": 745.56,
-      "qqq_ema20": 718.908117,
-      "qqq_ema20_slope_percent": 0.840965,
-      "spy_atr_expansion_ratio": 1.062497,
-      "spy_close": 773.4779,
-      "spy_downside_return_percent": 1.4264,
-      "spy_ema20": 764.766496,
-      "spy_ema20_slope_percent": 0.10917,
-      "vix_close": 14.27,
-      "vix_expansion_ratio": 0.911239,
+      "qqq_close": 739.6,
+      "qqq_ema20": 718.340496,
+      "qqq_ema20_slope_percent": 0.761345,
+      "spy_atr_expansion_ratio": 1.112517,
+      "spy_close": 767.6,
+      "spy_downside_return_percent": 0.6557,
+      "spy_ema20": 764.206693,
+      "spy_ema20_slope_percent": 0.035891,
+      "vix_close": 15.26,
+      "vix_expansion_ratio": 0.974457,
       "volatility_expanding_down": false
     },
     "reasons": []
@@ -875,8 +925,8 @@
   "quant_model_version": 1,
   "scores": {
     "A": {
-      "alpha_score": 74.692,
-      "composite_z": 0.6648,
+      "alpha_score": 60.145,
+      "composite_z": 0.2571,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -891,16 +941,16 @@
           "z": 0.4003
         },
         "volatility": {
-          "raw": 2.658074,
+          "raw": 0.09844,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 2.1832
+          "z": -0.3412
         },
         "volume": {
-          "raw": -0.495045,
+          "raw": 0.286056,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -1.2159
+          "z": 0.9398
         }
       },
       "gates": {
@@ -909,9 +959,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 75,
+      "score": 60,
       "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "AAPL": {
       "alpha_score": 38.3,
@@ -1270,8 +1320,8 @@
       "updated_at": "2026-09-04T12:15:00-04:00"
     },
     "AKAM": {
-      "alpha_score": 31.705,
-      "composite_z": -0.476,
+      "alpha_score": 32.86,
+      "composite_z": -0.4438,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -1286,16 +1336,16 @@
           "z": -0.4443
         },
         "volatility": {
-          "raw": 0.900841,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.0419
+          "z": -0.4959
         },
         "volume": {
-          "raw": -0.53857,
+          "raw": -0.135605,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -1.3001
+          "z": -0.3648
         }
       },
       "gates": {
@@ -1304,9 +1354,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 32,
+      "score": 33,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "ALB": {
       "alpha_score": 80.834,
@@ -1477,8 +1527,8 @@
       "updated_at": "2026-08-18T15:30:00-04:00"
     },
     "AMGN": {
-      "alpha_score": 57.637,
-      "composite_z": 0.1926,
+      "alpha_score": 25.257,
+      "composite_z": -0.6664,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -1493,16 +1543,16 @@
           "z": -0.9745
         },
         "volatility": {
-          "raw": 2.491644,
+          "raw": 0.029909,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 1.9804
+          "z": -0.4489
         },
         "volume": {
-          "raw": -0.248165,
+          "raw": -0.189163,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.7382
+          "z": -0.5305
         }
       },
       "gates": {
@@ -1511,9 +1561,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 58,
+      "score": 25,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "AMZN": {
       "alpha_score": 28.625,
@@ -1672,8 +1722,8 @@
       "updated_at": "2026-08-20T13:30:00-04:00"
     },
     "ARE": {
-      "alpha_score": 25.836,
-      "composite_z": -0.6484,
+      "alpha_score": 30.636,
+      "composite_z": -0.5062,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -1688,16 +1738,16 @@
           "z": -0.377
         },
         "volatility": {
-          "raw": 0.631246,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.2866
+          "z": -0.4959
         },
         "volume": {
-          "raw": -0.69264,
+          "raw": -0.248941,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -1.5982
+          "z": -0.7155
         }
       },
       "gates": {
@@ -1706,9 +1756,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 26,
+      "score": 31,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "ARES": {
       "alpha_score": 26.2,
@@ -2708,8 +2758,8 @@
       "updated_at": "2026-08-19T15:30:00-04:00"
     },
     "COIN": {
-      "alpha_score": 67.874,
-      "composite_z": 0.4642,
+      "alpha_score": 64.616,
+      "composite_z": 0.375,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -2727,13 +2777,13 @@
           "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -1.0558
+          "z": -0.4959
         },
         "volume": {
-          "raw": 0.568992,
+          "raw": -0.132069,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.8428
+          "z": -0.3539
         }
       },
       "gates": {
@@ -2742,9 +2792,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 68,
+      "score": 65,
       "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "COO": {
       "alpha_score": 28.967,
@@ -2942,8 +2992,8 @@
       "updated_at": "2026-09-08T15:15:00-04:00"
     },
     "CRWD": {
-      "alpha_score": 49.811,
-      "composite_z": -0.0047,
+      "alpha_score": 89.835,
+      "composite_z": 1.2722,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -2958,16 +3008,16 @@
           "z": 0.3066
         },
         "volatility": {
-          "raw": 0.061747,
+          "raw": 2.788348,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.9806
+          "z": 3.8857
         },
         "volume": {
-          "raw": 0.646092,
+          "raw": -0.405469,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.992
+          "z": -1.1998
         }
       },
       "gates": {
@@ -2976,9 +3026,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 50,
-      "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 90,
+      "tier": "B",
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "CSX": {
       "alpha_score": 62.376,
@@ -3176,8 +3226,8 @@
       "updated_at": "2026-09-08T15:15:00-04:00"
     },
     "DAL": {
-      "alpha_score": 29.79,
-      "composite_z": -0.5304,
+      "alpha_score": 34.93,
+      "composite_z": -0.3872,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -3192,16 +3242,16 @@
           "z": -0.3558
         },
         "volatility": {
-          "raw": 0.0,
+          "raw": 0.005451,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -1.0558
+          "z": -0.4873
         },
         "volume": {
-          "raw": 0.131109,
+          "raw": -0.109553,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.0044
+          "z": -0.2842
         }
       },
       "gates": {
@@ -3210,9 +3260,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 30,
+      "score": 35,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "DASH": {
       "alpha_score": 72.331,
@@ -3259,8 +3309,8 @@
       "updated_at": "2026-08-07T15:30:00-04:00"
     },
     "DE": {
-      "alpha_score": 70.028,
-      "composite_z": 0.5252,
+      "alpha_score": 49.178,
+      "composite_z": -0.0206,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -3275,16 +3325,16 @@
           "z": -0.0758
         },
         "volatility": {
-          "raw": 1.380076,
+          "raw": 0.133102,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.6259
+          "z": -0.2867
         },
         "volume": {
-          "raw": 0.792727,
+          "raw": 0.131406,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 1.2757
+          "z": 0.4613
         }
       },
       "gates": {
@@ -3293,13 +3343,13 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 70,
-      "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 49,
+      "tier": null,
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "DELL": {
-      "alpha_score": 39.273,
-      "composite_z": -0.2722,
+      "alpha_score": 38.426,
+      "composite_z": -0.2943,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -3314,16 +3364,16 @@
           "z": 0.0419
         },
         "volatility": {
-          "raw": 0.0,
+          "raw": 0.053464,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -1.0558
+          "z": -0.4119
         },
         "volume": {
-          "raw": 0.356635,
+          "raw": -0.218858,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.4319
+          "z": -0.6224
         }
       },
       "gates": {
@@ -3332,9 +3382,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 39,
+      "score": 38,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "DG": {
       "score": 0,
@@ -3581,8 +3631,8 @@
       "updated_at": "2026-08-21T15:30:00-04:00"
     },
     "DXCM": {
-      "alpha_score": 41.223,
-      "composite_z": -0.2218,
+      "alpha_score": 43.105,
+      "composite_z": -0.1737,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -3597,16 +3647,16 @@
           "z": -0.7987
         },
         "volatility": {
-          "raw": 1.160228,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.358
+          "z": -0.4959
         },
         "volume": {
-          "raw": 0.016475,
+          "raw": 0.385382,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.2262
+          "z": 1.2471
         }
       },
       "gates": {
@@ -3615,9 +3665,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 41,
+      "score": 43,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "ECL": {
       "factors": {
@@ -4151,8 +4201,8 @@
       "updated_at": "2026-08-11T15:00:00-04:00"
     },
     "FTNT": {
-      "alpha_score": 41.546,
-      "composite_z": -0.2135,
+      "alpha_score": 71.501,
+      "composite_z": 0.5681,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -4167,16 +4217,16 @@
           "z": -1.03
         },
         "volatility": {
-          "raw": 0.268397,
+          "raw": 1.378408,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.7288
+          "z": 1.6702
         },
         "volume": {
-          "raw": 1.055433,
+          "raw": 0.406384,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 1.784
+          "z": 1.3121
         }
       },
       "gates": {
@@ -4185,9 +4235,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 42,
-      "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 72,
+      "tier": "B",
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "GD": {
       "alpha_score": 33.598,
@@ -4280,8 +4330,8 @@
       "updated_at": "2026-08-21T15:30:00-04:00"
     },
     "GILD": {
-      "alpha_score": 78.944,
-      "composite_z": 0.8045,
+      "alpha_score": 44.78,
+      "composite_z": -0.1312,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -4296,16 +4346,16 @@
           "z": -0.3933
         },
         "volatility": {
-          "raw": 2.097139,
+          "raw": 0.042916,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 1.4996
+          "z": -0.4284
         },
         "volume": {
-          "raw": 0.938874,
+          "raw": 0.211075,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 1.5585
+          "z": 0.7078
         }
       },
       "gates": {
@@ -4314,9 +4364,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 79,
-      "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 45,
+      "tier": null,
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "GIS": {
       "alpha_score": 31.209,
@@ -4370,8 +4420,8 @@
       "updated_at": "2026-08-10T14:45:00-04:00"
     },
     "GNRC": {
-      "alpha_score": 73.947,
-      "composite_z": 0.6417,
+      "alpha_score": 51.26,
+      "composite_z": 0.0316,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -4386,16 +4436,16 @@
           "z": 0.7823
         },
         "volatility": {
-          "raw": 1.103077,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.2883
+          "z": -0.4959
         },
         "volume": {
-          "raw": 0.63003,
+          "raw": -0.115693,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.9609
+          "z": -0.3032
         }
       },
       "gates": {
@@ -4404,9 +4454,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 74,
-      "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 51,
+      "tier": null,
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "GPC": {
       "alpha_score": 42.239,
@@ -4604,8 +4654,8 @@
       "updated_at": "2026-08-21T15:30:00-04:00"
     },
     "HCA": {
-      "alpha_score": 75.854,
-      "composite_z": 0.7016,
+      "alpha_score": 31.582,
+      "composite_z": -0.4794,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -4620,16 +4670,16 @@
           "z": -0.636
         },
         "volatility": {
-          "raw": 2.285485,
+          "raw": 0.061068,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 1.7291
+          "z": -0.3999
         },
         "volume": {
-          "raw": 0.736447,
+          "raw": -0.135254,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 1.1668
+          "z": -0.3637
         }
       },
       "gates": {
@@ -4638,9 +4688,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 76,
-      "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 32,
+      "tier": null,
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "HON": {
       "factors": {
@@ -4928,8 +4978,8 @@
       "updated_at": "2026-09-04T12:15:00-04:00"
     },
     "ILMN": {
-      "alpha_score": 68.996,
-      "composite_z": 0.4957,
+      "alpha_score": 96.87,
+      "composite_z": 1.862,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -4944,16 +4994,16 @@
           "z": 0.6594
         },
         "volatility": {
-          "raw": 1.831443,
+          "raw": 1.853249,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 1.1759
+          "z": 2.4163
         },
         "volume": {
-          "raw": -0.264558,
+          "raw": 0.89847,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.77
+          "z": 2.8345
         }
       },
       "gates": {
@@ -4962,9 +5012,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 69,
+      "score": 97,
       "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "INCY": {
       "alpha_score": 79.54,
@@ -5057,8 +5107,8 @@
       "updated_at": "2026-08-07T15:30:00-04:00"
     },
     "IQV": {
-      "alpha_score": 30.277,
-      "composite_z": -0.5164,
+      "alpha_score": 29.612,
+      "composite_z": -0.5356,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -5073,16 +5123,16 @@
           "z": -0.6791
         },
         "volatility": {
-          "raw": 0.805632,
+          "raw": 0.083707,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.0741
+          "z": -0.3643
         },
         "volume": {
-          "raw": -0.350304,
+          "raw": -0.204235,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.9359
+          "z": -0.5772
         }
       },
       "gates": {
@@ -5093,7 +5143,7 @@
       },
       "score": 30,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "IR": {
       "factors": {
@@ -5688,8 +5738,8 @@
       "updated_at": "2026-08-19T15:30:00-04:00"
     },
     "META": {
-      "alpha_score": 59.672,
-      "composite_z": 0.2449,
+      "alpha_score": 80.926,
+      "composite_z": 0.8752,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -5704,16 +5754,16 @@
           "z": 2.1653
         },
         "volatility": {
-          "raw": 0.016116,
+          "raw": 0.475747,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -1.0362
+          "z": 0.2517
         },
         "volume": {
-          "raw": -0.235749,
+          "raw": -0.058025,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.7142
+          "z": -0.1248
         }
       },
       "gates": {
@@ -5722,9 +5772,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 60,
-      "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 81,
+      "tier": "B",
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "MKC": {
       "alpha_score": 21.13,
@@ -5844,8 +5894,8 @@
       "updated_at": "2026-09-08T15:15:00-04:00"
     },
     "MPC": {
-      "alpha_score": 36.835,
-      "composite_z": -0.3362,
+      "alpha_score": 33.712,
+      "composite_z": -0.4203,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -5860,16 +5910,16 @@
           "z": 0.0383
         },
         "volatility": {
-          "raw": 0.0,
+          "raw": 0.040917,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -1.0558
+          "z": -0.4316
         },
         "volume": {
-          "raw": 0.227166,
+          "raw": -0.37045,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.1814
+          "z": -1.0914
         }
       },
       "gates": {
@@ -5878,13 +5928,13 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 37,
+      "score": 34,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "MRK": {
-      "alpha_score": 34.109,
-      "composite_z": -0.4095,
+      "alpha_score": 40.582,
+      "composite_z": -0.2383,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -5899,16 +5949,16 @@
           "z": -0.5492
         },
         "volatility": {
-          "raw": 1.310972,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.5417
+          "z": -0.4959
         },
         "volume": {
-          "raw": -0.707313,
+          "raw": 0.180909,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -1.6266
+          "z": 0.6144
         }
       },
       "gates": {
@@ -5917,13 +5967,13 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 34,
+      "score": 41,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "MRNA": {
-      "alpha_score": 88.019,
-      "composite_z": 1.1759,
+      "alpha_score": 93.289,
+      "composite_z": 1.4977,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -5938,16 +5988,16 @@
           "z": 3.4886
         },
         "volatility": {
-          "raw": 1.010819,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.1759
+          "z": -0.4959
         },
         "volume": {
-          "raw": -0.276473,
+          "raw": 0.467697,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.793
+          "z": 1.5018
         }
       },
       "gates": {
@@ -5956,9 +6006,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 88,
+      "score": 93,
       "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "MRSH": {
       "factors": {
@@ -6129,8 +6179,8 @@
       "updated_at": "2026-09-04T12:15:00-04:00"
     },
     "NOW": {
-      "alpha_score": 9.481,
-      "composite_z": -1.3117,
+      "alpha_score": 31.557,
+      "composite_z": -0.4801,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -6145,16 +6195,16 @@
           "z": -2.1213
         },
         "volatility": {
-          "raw": 0.0,
+          "raw": 1.269426,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -1.0558
+          "z": 1.4989
         },
         "volume": {
-          "raw": -0.115369,
+          "raw": -0.336702,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.4813
+          "z": -0.987
         }
       },
       "gates": {
@@ -6163,9 +6213,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 9,
+      "score": 32,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "NSC": {
       "score": 0,
@@ -6680,8 +6730,8 @@
       "updated_at": "2026-09-04T12:15:00-04:00"
     },
     "PLTR": {
-      "alpha_score": 41.757,
-      "composite_z": -0.2081,
+      "alpha_score": 45.751,
+      "composite_z": -0.1067,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -6696,16 +6746,16 @@
           "z": -1.352
         },
         "volatility": {
-          "raw": 1.030739,
+          "raw": 1.188999,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.2002
+          "z": 1.3725
         },
         "volume": {
-          "raw": 0.596124,
+          "raw": -0.165577,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.8953
+          "z": -0.4576
         }
       },
       "gates": {
@@ -6714,9 +6764,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 42,
+      "score": 46,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "PNC": {
       "alpha_score": 21.187,
@@ -6836,8 +6886,8 @@
       "updated_at": "2026-09-08T15:15:00-04:00"
     },
     "PSX": {
-      "alpha_score": 52.17,
-      "composite_z": 0.0544,
+      "alpha_score": 29.663,
+      "composite_z": -0.5341,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -6852,16 +6902,16 @@
           "z": -0.041
         },
         "volatility": {
-          "raw": 0.526388,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.4144
+          "z": -0.4959
         },
         "volume": {
-          "raw": 0.598959,
+          "raw": -0.44793,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.9008
+          "z": -1.3311
         }
       },
       "gates": {
@@ -6870,9 +6920,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 52,
+      "score": 30,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "PTC": {
       "alpha_score": 70.153,
@@ -6965,8 +7015,8 @@
       "updated_at": "2026-08-21T15:30:00-04:00"
     },
     "QCOM": {
-      "alpha_score": 52.305,
-      "composite_z": 0.0578,
+      "alpha_score": 52.495,
+      "composite_z": 0.0626,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -6981,16 +7031,16 @@
           "z": -0.1367
         },
         "volatility": {
-          "raw": 1.447089,
+          "raw": 0.001933,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.7075
+          "z": -0.4928
         },
         "volume": {
-          "raw": -0.189578,
+          "raw": 0.368449,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.6249
+          "z": 1.1947
         }
       },
       "gates": {
@@ -7001,7 +7051,7 @@
       },
       "score": 52,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "QQQ": {
       "factors": {
@@ -7201,8 +7251,8 @@
       "updated_at": "2026-08-19T15:30:00-04:00"
     },
     "RVTY": {
-      "alpha_score": 40.382,
-      "composite_z": -0.2435,
+      "alpha_score": 75.086,
+      "composite_z": 0.6772,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -7217,16 +7267,16 @@
           "z": 0.4605
         },
         "volatility": {
-          "raw": 0.323574,
+          "raw": 0.402543,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.6615
+          "z": 0.1367
         },
         "volume": {
-          "raw": -0.21407,
+          "raw": 0.568321,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.6723
+          "z": 1.8131
         }
       },
       "gates": {
@@ -7235,9 +7285,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 40,
-      "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 75,
+      "tier": "B",
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "SCHW": {
       "alpha_score": 62.666,
@@ -7396,8 +7446,8 @@
       "updated_at": "2026-09-08T15:15:00-04:00"
     },
     "SMCI": {
-      "alpha_score": 25.382,
-      "composite_z": -0.6625,
+      "alpha_score": 34.626,
+      "composite_z": -0.3954,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -7415,13 +7465,13 @@
           "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -1.0558
+          "z": -0.4959
         },
         "volume": {
-          "raw": -0.472831,
+          "raw": -0.322944,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -1.1729
+          "z": -0.9444
         }
       },
       "gates": {
@@ -7430,9 +7480,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 25,
+      "score": 35,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "SOLV": {
       "alpha_score": 34.486,
@@ -7564,8 +7614,8 @@
       "updated_at": "2026-08-17T15:30:00-04:00"
     },
     "SWKS": {
-      "alpha_score": 36.35,
-      "composite_z": -0.3491,
+      "alpha_score": 39.137,
+      "composite_z": -0.2757,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -7580,16 +7630,16 @@
           "z": 0.2918
         },
         "volatility": {
-          "raw": 0.184257,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.8313
+          "z": -0.4959
         },
         "volume": {
-          "raw": -0.170118,
+          "raw": -0.275255,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.5872
+          "z": -0.7969
         }
       },
       "gates": {
@@ -7598,9 +7648,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 36,
+      "score": 39,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "SYF": {
       "alpha_score": 38.832,
@@ -7798,8 +7848,8 @@
       "updated_at": "2026-08-21T15:30:00-04:00"
     },
     "TMO": {
-      "alpha_score": 29.536,
-      "composite_z": -0.5378,
+      "alpha_score": 51.251,
+      "composite_z": 0.0314,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -7814,16 +7864,16 @@
           "z": -0.4354
         },
         "volatility": {
-          "raw": 0.580885,
+          "raw": 0.140782,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.348
+          "z": -0.2746
         },
         "volume": {
-          "raw": -0.371111,
+          "raw": 0.367086,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.9761
+          "z": 1.1905
         }
       },
       "gates": {
@@ -7832,9 +7882,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 30,
+      "score": 51,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "TPR": {
       "factors": {
@@ -7966,8 +8016,8 @@
       "updated_at": "2026-08-21T15:30:00-04:00"
     },
     "TSLA": {
-      "alpha_score": 68.629,
-      "composite_z": 0.4854,
+      "alpha_score": 39.827,
+      "composite_z": -0.2578,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -7982,16 +8032,16 @@
           "z": 0.2868
         },
         "volatility": {
-          "raw": 1.152481,
+          "raw": 0.038195,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 0.3485
+          "z": -0.4359
         },
         "volume": {
-          "raw": 0.644303,
+          "raw": -0.278726,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.9885
+          "z": -0.8076
         }
       },
       "gates": {
@@ -8000,13 +8050,13 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 69,
-      "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 40,
+      "tier": null,
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "UAL": {
-      "alpha_score": 35.993,
-      "composite_z": -0.3586,
+      "alpha_score": 37.779,
+      "composite_z": -0.3113,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -8024,13 +8074,13 @@
           "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -1.0558
+          "z": -0.4959
         },
         "volume": {
-          "raw": 0.302902,
+          "raw": -0.121948,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 0.328
+          "z": -0.3226
         }
       },
       "gates": {
@@ -8039,9 +8089,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 36,
+      "score": 38,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "UNP": {
       "alpha_score": 77.07,
@@ -8200,8 +8250,8 @@
       "updated_at": "2026-09-08T15:15:00-04:00"
     },
     "VLO": {
-      "alpha_score": 53.009,
-      "composite_z": 0.0755,
+      "alpha_score": 45.996,
+      "composite_z": -0.1005,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -8216,16 +8266,16 @@
           "z": 0.2861
         },
         "volatility": {
-          "raw": 0.145542,
+          "raw": 0.104118,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.8785
+          "z": -0.3323
         },
         "volume": {
-          "raw": 0.748707,
+          "raw": -0.125295,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 1.1905
+          "z": -0.3329
         }
       },
       "gates": {
@@ -8234,9 +8284,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 53,
+      "score": 46,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "VLTO": {
       "alpha_score": 72.649,
@@ -8400,8 +8450,8 @@
       "updated_at": "2026-09-04T12:15:00-04:00"
     },
     "WBD": {
-      "alpha_score": 46.024,
-      "composite_z": -0.0998,
+      "alpha_score": 47.474,
+      "composite_z": -0.0634,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -8416,16 +8466,16 @@
           "z": 0.1131
         },
         "volatility": {
-          "raw": 0.8,
+          "raw": 0.222741,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": -0.081
+          "z": -0.1459
         },
         "volume": {
-          "raw": -0.09793,
+          "raw": -0.083724,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": -0.4476
+          "z": -0.2043
         }
       },
       "gates": {
@@ -8434,9 +8484,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 46,
+      "score": 47,
       "tier": null,
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "WDAY": {
       "alpha_score": 72.33,
@@ -8517,8 +8567,8 @@
       "updated_at": "2026-08-20T13:30:00-04:00"
     },
     "WSM": {
-      "alpha_score": 79.281,
-      "composite_z": 0.8162,
+      "alpha_score": 24.58,
+      "composite_z": -0.6878,
       "factor_breakdown": {
         "gamma": {
           "raw": null,
@@ -8533,16 +8583,16 @@
           "z": -0.6042
         },
         "volatility": {
-          "raw": 2.389144,
+          "raw": 0.0,
           "status": "CONFIRMED",
           "weight": 0.3,
-          "z": 1.8554
+          "z": -0.4959
         },
         "volume": {
-          "raw": 0.850741,
+          "raw": -0.373532,
           "status": "CONFIRMED",
           "weight": 0.2,
-          "z": 1.388
+          "z": -1.101
         }
       },
       "gates": {
@@ -8551,9 +8601,9 @@
         "volatility_transition": false,
         "volume_absorption": false
       },
-      "score": 79,
-      "tier": "B",
-      "updated_at": "2026-09-22T13:00:00-04:00"
+      "score": 25,
+      "tier": null,
+      "updated_at": "2026-09-23T13:15:00-04:00"
     },
     "WYNN": {
       "alpha_score": 35.045,
