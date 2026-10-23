@@ -197,3 +197,4 @@
 {"payload": {"date": "2026-10-20", "eligible": 155, "evaluated": 518, "sector_mapping_coverage": 152}, "timestamp": "2026-10-20T20:54:36+00:00", "type": "quant_daily_pool_refreshed"}
 {"payload": {"date": "2026-10-21", "eligible": 163, "evaluated": 518, "sector_mapping_coverage": 160}, "timestamp": "2026-10-21T20:57:20+00:00", "type": "quant_daily_pool_refreshed"}
 {"payload": {"date": "2026-10-22", "eligible": 196, "evaluated": 518, "sector_mapping_coverage": 191}, "timestamp": "2026-10-22T20:52:58+00:00", "type": "quant_daily_pool_refreshed"}
+{"payload": {"date": "2026-10-23", "eligible": 186, "evaluated": 518, "sector_mapping_coverage": 180}, "timestamp": "2026-10-23T20:39:14+00:00", "type": "quant_daily_pool_refreshed"}
